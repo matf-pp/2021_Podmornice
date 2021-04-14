@@ -12,4 +12,6 @@ class Podmornice{
 
 
 
-int main(){}
+int main(){
+    return 0;
+}
