@@ -13,5 +13,4 @@ class Podmornice{
 
 
 int main(){
-    return 0;
 }
