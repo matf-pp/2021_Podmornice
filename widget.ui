@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="grid">
+     <item row="3" column="8">
+      <widget class="QPushButton" name="p38">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="7">
+      <widget class="QPushButton" name="p77">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="9">
+      <widget class="QPushButton" name="p39">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="p22">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="p01">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QPushButton" name="p26">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="p04">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="p63">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="p13">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="p81">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="5">
+      <widget class="QPushButton" name="p85">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="p32">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="p21">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="p53">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="9">
+      <widget class="QPushButton" name="p79">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QPushButton" name="p65">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="6">
+      <widget class="QPushButton" name="p76">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="QPushButton" name="p47">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="p03">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="9">
+      <widget class="QPushButton" name="p59">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="4">
+      <widget class="QPushButton" name="p94">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <widget class="QPushButton" name="p29">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QPushButton" name="p44">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="p42">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="p10">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="p00">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="p12">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="p62">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="p24">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QPushButton" name="p07">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="9">
+      <widget class="QPushButton" name="p89">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="p05">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8">
+      <widget class="QPushButton" name="p08">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="p92">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="8">
+      <widget class="QPushButton" name="p98">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="p61">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QPushButton" name="p34">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="p14">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="p20">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="p43">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="6">
+      <widget class="QPushButton" name="p86">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="8">
+      <widget class="QPushButton" name="p48">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QPushButton" name="p83">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QPushButton" name="p75">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="p71">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="8">
+      <widget class="QPushButton" name="p88">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="5">
+      <widget class="QPushButton" name="p95">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QPushButton" name="p36">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="p54">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QPushButton" name="p27">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QPushButton" name="p37">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QPushButton" name="p45">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="p33">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="p80">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="9">
+      <widget class="QPushButton" name="p99">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QPushButton" name="p73">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="p06">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="6">
+      <widget class="QPushButton" name="p96">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="p41">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QPushButton" name="p17">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="9">
+      <widget class="QPushButton" name="p09">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QPushButton" name="p35">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="5">
+      <widget class="QPushButton" name="p55">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="8">
+      <widget class="QPushButton" name="p18">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="9">
+      <widget class="QPushButton" name="p19">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QPushButton" name="p64">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="p23">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="9">
+      <widget class="QPushButton" name="p69">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="p70">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="8">
+      <widget class="QPushButton" name="p58">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QPushButton" name="p16">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="p50">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="p91">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="7">
+      <widget class="QPushButton" name="p67">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="p52">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="8">
+      <widget class="QPushButton" name="p78">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="p60">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="p51">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="7">
+      <widget class="QPushButton" name="p97">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="p31">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="p40">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="p82">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="p90">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="8">
+      <widget class="QPushButton" name="p68">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="p72">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QPushButton" name="p15">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="7">
+      <widget class="QPushButton" name="p87">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="p02">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="p11">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QPushButton" name="p46">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="6">
+      <widget class="QPushButton" name="p56">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="7">
+      <widget class="QPushButton" name="p57">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QPushButton" name="p74">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="6">
+      <widget class="QPushButton" name="p66">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="4">
+      <widget class="QPushButton" name="p84">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="p25">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="p30">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QPushButton" name="p93">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="8">
+      <widget class="QPushButton" name="p28">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="9">
+      <widget class="QPushButton" name="p49">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
