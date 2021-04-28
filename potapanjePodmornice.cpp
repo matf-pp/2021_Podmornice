@@ -1,12 +1,17 @@
 #include<iostream>
+#include <QApplication>
+#include <QLabel>
+#include <QWidget>
 
-class GUI{
-public:
 
-private:
-};
 
-int main(){
+int main(int argc, char *argv[ ])
+{
 
-    return 0;
+QApplication app(argc, argv);
+QLabel hello("<center>ZDRAVO</center>");
+hello.setWindowTitle("My First Qt Program");
+hello.resize(1000, 600);
+hello.show();
+return app.exec();
 }
