@@ -1,87 +1,75 @@
 #include<iostream>
 #include<vector>
-#include<algorithm>
-#include<map>
 
-    class Polje
-    {
-
-            int _x;
-            int _y;
-        public:
-        Polje(int x,int y)
-        {
-            _x=x;
-            _y=y;
-        }
-
-        int getX()
-        {
-            return _x;
-        }
-        
-        int getY()
-        {
-            return _y;
-        }
-
-
-        void ispisPolja()
-        {
-            std::cout<<"("<<_x<<", "<<_y<<")"<<std::endl;
-        }
-
-    };
-
-
+using namespace std;
 
     class Podmornica
     {   
         
+     private:
+
+        char dir;
+        int length;
+        vector<int> vrsta_podm;
+        vector<int> kolona_podm;
+        int pogodak;
+        string ime;
+
     public:
-        int duzina;
-        std::vector<Polje> podmornica;
-        Podmornica(std::vector<Polje>);
-        int proveraPogotka(Polje polje);
 
-    };    
-
-    Podmornica::Podmornica(std::vector<Polje> polja)
-    {
-            podmornica=polja;
-            duzina=podmornica.size();
-    }
-    
-
-    int Podmornica::proveraPogotka(Polje p1)
-    {
-        if(std::binary_search(Podmornica::podmornica.begin(),Podmornica::podmornica.end(),p1))
-            return 1;
-        else 
-            return 0;
-
-        // vraca 1 ako je u podmornici polje koje je protivnik gadjao, nula ako nije
-    }
-
-
-    class PodmornicaSaNizom{
-            public:
-                std::pair<Podmornica,std::vector<int>> podmornicaSaNizom;
-                PodmornicaSaNizom(Podmornica);
-                void oznaciPogodjenoPolje(Polje polje);
-                void potopiPodmornicu(Podmornica podmornica);
-
-    
-        PodmornicaSaNizom(Podmornica podmornica)
+        //Default contstructor
+        Podmornica(char d, int lgth, vector<int> r, vector<int> c, int hit, string nme)
         {
-            std::vector<int> pomocni(podmornica.duzina,0);
-            podmornicaSaNizom=std::make_pair(podmornica,pomocni);
+            dir=d;
+            length=lgth;
+            vrsta_podm=r;
+            kolona_podm=c;
+            pogodak=hit;
+            ime=nme;
         }
 
-        void oznaciPogodjenoPolje(Polje polje)
+        //pogodili polje u podmornici, uvecavamo brojac
+        void setPogodak()
         {
-
+            pogodak++;
         }
+
+        int proveriPotop(int duzinaPodm)
+        {
+            //ako imamo pogodaka koliko je podmornica dugacka mi smo je potopili
+            if(pogodak>=duzinaPodm)
+            {
+                return 9;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
+        //ispisujemo koordinate nase podmornice
+        void koordinatePodmornice()
+        {
+            cout << "Koordinate podmornice su: " << ime << endl << endl;
+            for(int i=0; i<length; i++)
+            {
+                cout << " [" << vrsta_podm[i] << "][" << kolona_podm[i] << "]" << endl;
+            }
+        cout << endl;
+        }
+
+        //hocemo da vidimo koja je podmornica na datoj koordinati
+        string getBoat(int v, int k)
+        {
+            for(int i=0; i<length; i++)
+            {
+                if((vrsta_podm[i]==v) && (kolona_podm[i]==k))
+                {
+                    return ime;
+                }
+            }
+            return "";
+         }
     
     };
 
@@ -89,8 +77,9 @@
 
 int main()
 {
-    Polje polje(2,3);
-    polje.ispisPolja();
+    Podmornica podmornica('v',3,{1,1,1},{1,2,3},0," ");
+    podmornica.koordinatePodmornice();
+
 
     return 0;
 
