@@ -1,1 +1,0 @@
- je bitno d
