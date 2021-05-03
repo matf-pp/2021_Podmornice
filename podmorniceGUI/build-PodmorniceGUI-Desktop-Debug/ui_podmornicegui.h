@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'podmornicegui.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_PODMORNICEGUI_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -28,107 +25,107 @@ class Ui_PodmorniceGUI
 {
 public:
     QWidget *centralWidget;
-    QPushButton *b38;
-    QPushButton *b64;
-    QPushButton *b88;
-    QPushButton *b42;
-    QPushButton *b55_4;
-    QPushButton *b44;
-    QPushButton *b10_3;
-    QPushButton *b84;
-    QPushButton *b61;
-    QPushButton *b27;
-    QPushButton *b13;
-    QPushButton *b77;
-    QPushButton *b82;
-    QPushButton *b10_5;
-    QPushButton *b85;
-    QPushButton *b45;
-    QPushButton *b1_10;
-    QPushButton *b6_10;
-    QPushButton *b34;
-    QPushButton *b33;
-    QPushButton *b4_10;
-    QPushButton *b48;
-    QPushButton *b10_7;
-    QPushButton *b71;
-    QPushButton *b52;
-    QPushButton *b8_10;
-    QPushButton *b26;
-    QPushButton *b43;
-    QPushButton *b3_10;
-    QPushButton *b76;
-    QPushButton *b57;
-    QPushButton *b62;
-    QPushButton *b47;
-    QPushButton *b22;
-    QPushButton *b92;
-    QPushButton *b17;
-    QPushButton *b41;
-    QPushButton *b67;
-    QPushButton *b97;
-    QPushButton *b46;
-    QPushButton *b25;
-    QPushButton *b51;
-    QPushButton *b10_4;
-    QPushButton *b12;
-    QPushButton *b10_8;
-    QPushButton *b39;
-    QPushButton *b89;
-    QPushButton *b81;
-    QPushButton *b10_9;
-    QPushButton *b87;
-    QPushButton *b37;
-    QPushButton *b59;
-    QPushButton *b93;
-    QPushButton *b91;
-    QPushButton *b55;
-    QPushButton *b86;
-    QPushButton *b83;
-    QPushButton *b9_10;
-    QPushButton *b32;
-    QPushButton *b73;
-    QPushButton *b29;
-    QPushButton *b58;
-    QPushButton *b63;
-    QPushButton *b74;
-    QPushButton *b96;
-    QPushButton *b68;
-    QPushButton *b14;
-    QPushButton *b16;
-    QPushButton *b24;
-    QPushButton *b19;
-    QPushButton *b95;
-    QPushButton *b31;
-    QPushButton *b79;
-    QPushButton *b56;
-    QPushButton *b11;
-    QPushButton *b18;
-    QPushButton *b10_6;
-    QPushButton *b36;
-    QPushButton *b35;
-    QPushButton *b72;
-    QPushButton *pushButton;
-    QPushButton *b69;
-    QPushButton *b49;
-    QPushButton *b10_1;
-    QPushButton *b94;
-    QPushButton *b65;
-    QPushButton *b15;
-    QPushButton *b28;
-    QPushButton *b78;
-    QPushButton *b10_2;
-    QPushButton *b75;
-    QPushButton *b98;
-    QPushButton *b21;
-    QPushButton *b2_10;
-    QPushButton *b53;
-    QPushButton *b7_10;
-    QPushButton *b99;
-    QPushButton *b23;
-    QPushButton *b54;
-    QPushButton *b5_10;
-    QPushButton *b66;
+    QPushButton *p37;
+    QPushButton *p65;
+    QPushButton *p31;
+    QPushButton *p82;
+    QPushButton *p77;
+    QPushButton *p21;
+    QPushButton *p94;
+    QPushButton *p39;
+    QPushButton *p61;
+    QPushButton *p07;
+    QPushButton *p17;
+    QPushButton *p96;
+    QPushButton *p06;
+    QPushButton *p85;
+    QPushButton *p52;
+    QPushButton *p18;
+    QPushButton *p09;
+    QPushButton *p26;
+    QPushButton *p99;
+    QPushButton *postavi;
+    QPushButton *p01;
+    QPushButton *p30;
+    QPushButton *p78;
+    QPushButton *p33;
+    QPushButton *p10;
+    QPushButton *p55;
+    QPushButton *p46;
+    QPushButton *p51;
+    QPushButton *p72;
+    QPushButton *p90;
+    QPushButton *p40;
+    QPushButton *p56;
+    QPushButton *p41;
+    QPushButton *p36;
+    QPushButton *p38;
+    QPushButton *p68;
+    QPushButton *p04;
+    QPushButton *p32;
+    QPushButton *p62;
+    QPushButton *p95;
+    QPushButton *p60;
+    QPushButton *p11;
+    QPushButton *p81;
+    QPushButton *p05;
+    QPushButton *p64;
+    QPushButton *p19;
+    QPushButton *p89;
+    QPushButton *p79;
+    QPushButton *p80;
+    QPushButton *p16;
+    QPushButton *p76;
+    QPushButton *p93;
+    QPushButton *p34;
+    QPushButton *p59;
+    QPushButton *p73;
+    QPushButton *p27;
+    QPushButton *p44;
+    QPushButton *p74;
+    QPushButton *p25;
+    QPushButton *p58;
+    QPushButton *p53;
+    QPushButton *p49;
+    QPushButton *p92;
+    QPushButton *p86;
+    QPushButton *p35;
+    QPushButton *p15;
+    QPushButton *p29;
+    QPushButton *p70;
+    QPushButton *p12;
+    QPushButton *p24;
+    QPushButton *p48;
+    QPushButton *p45;
+    QPushButton *p22;
+    QPushButton *p50;
+    QPushButton *p87;
+    QPushButton *p43;
+    QPushButton *p28;
+    QPushButton *p98;
+    QPushButton *p13;
+    QPushButton *p54;
+    QPushButton *p69;
+    QPushButton *p20;
+    QPushButton *p91;
+    QPushButton *p03;
+    QPushButton *p83;
+    QPushButton *p00;
+    QPushButton *p88;
+    QPushButton *p84;
+    QPushButton *p47;
+    QPushButton *p75;
+    QPushButton *p02;
+    QPushButton *p23;
+    QPushButton *p57;
+    QPushButton *p08;
+    QPushButton *p42;
+    QPushButton *p71;
+    QPushButton *p67;
+    QPushButton *p97;
+    QPushButton *p14;
+    QPushButton *p66;
+    QPushButton *p63;
     QLineEdit *lineEdit;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
@@ -137,826 +134,1032 @@ public:
     void setupUi(QMainWindow *PodmorniceGUI)
     {
         if (PodmorniceGUI->objectName().isEmpty())
-            PodmorniceGUI->setObjectName(QStringLiteral("PodmorniceGUI"));
+            PodmorniceGUI->setObjectName(QString::fromUtf8("PodmorniceGUI"));
         PodmorniceGUI->resize(655, 375);
         centralWidget = new QWidget(PodmorniceGUI);
-        centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        b38 = new QPushButton(centralWidget);
-        b38->setObjectName(QStringLiteral("b38"));
-        b38->setGeometry(QRect(290, 70, 41, 31));
-        b38->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b64 = new QPushButton(centralWidget);
-        b64->setObjectName(QStringLiteral("b64"));
-        b64->setGeometry(QRect(130, 160, 41, 31));
-        b64->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b88 = new QPushButton(centralWidget);
-        b88->setObjectName(QStringLiteral("b88"));
-        b88->setGeometry(QRect(290, 220, 41, 31));
-        b88->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b42 = new QPushButton(centralWidget);
-        b42->setObjectName(QStringLiteral("b42"));
-        b42->setGeometry(QRect(50, 100, 41, 31));
-        b42->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b55_4 = new QPushButton(centralWidget);
-        b55_4->setObjectName(QStringLiteral("b55_4"));
-        b55_4->setGeometry(QRect(370, 280, 41, 31));
-        b55_4->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b44 = new QPushButton(centralWidget);
-        b44->setObjectName(QStringLiteral("b44"));
-        b44->setGeometry(QRect(130, 100, 41, 31));
-        b44->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_3 = new QPushButton(centralWidget);
-        b10_3->setObjectName(QStringLiteral("b10_3"));
-        b10_3->setGeometry(QRect(90, 280, 41, 31));
-        b10_3->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b84 = new QPushButton(centralWidget);
-        b84->setObjectName(QStringLiteral("b84"));
-        b84->setGeometry(QRect(130, 220, 41, 31));
-        b84->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b61 = new QPushButton(centralWidget);
-        b61->setObjectName(QStringLiteral("b61"));
-        b61->setGeometry(QRect(10, 160, 41, 31));
-        b61->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b27 = new QPushButton(centralWidget);
-        b27->setObjectName(QStringLiteral("b27"));
-        b27->setGeometry(QRect(250, 40, 41, 31));
-        b27->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b13 = new QPushButton(centralWidget);
-        b13->setObjectName(QStringLiteral("b13"));
-        b13->setGeometry(QRect(90, 10, 41, 31));
-        b13->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b77 = new QPushButton(centralWidget);
-        b77->setObjectName(QStringLiteral("b77"));
-        b77->setGeometry(QRect(250, 190, 41, 31));
-        b77->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b82 = new QPushButton(centralWidget);
-        b82->setObjectName(QStringLiteral("b82"));
-        b82->setGeometry(QRect(50, 220, 41, 31));
-        b82->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_5 = new QPushButton(centralWidget);
-        b10_5->setObjectName(QStringLiteral("b10_5"));
-        b10_5->setGeometry(QRect(170, 280, 41, 31));
-        b10_5->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b85 = new QPushButton(centralWidget);
-        b85->setObjectName(QStringLiteral("b85"));
-        b85->setGeometry(QRect(170, 220, 41, 31));
-        b85->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b45 = new QPushButton(centralWidget);
-        b45->setObjectName(QStringLiteral("b45"));
-        b45->setGeometry(QRect(170, 100, 41, 31));
-        b45->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b1_10 = new QPushButton(centralWidget);
-        b1_10->setObjectName(QStringLiteral("b1_10"));
-        b1_10->setGeometry(QRect(370, 10, 41, 31));
-        b1_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b6_10 = new QPushButton(centralWidget);
-        b6_10->setObjectName(QStringLiteral("b6_10"));
-        b6_10->setGeometry(QRect(370, 160, 41, 31));
-        b6_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b34 = new QPushButton(centralWidget);
-        b34->setObjectName(QStringLiteral("b34"));
-        b34->setGeometry(QRect(130, 70, 41, 31));
-        b34->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b33 = new QPushButton(centralWidget);
-        b33->setObjectName(QStringLiteral("b33"));
-        b33->setGeometry(QRect(90, 70, 41, 31));
-        b33->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b4_10 = new QPushButton(centralWidget);
-        b4_10->setObjectName(QStringLiteral("b4_10"));
-        b4_10->setGeometry(QRect(370, 100, 41, 31));
-        b4_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b48 = new QPushButton(centralWidget);
-        b48->setObjectName(QStringLiteral("b48"));
-        b48->setGeometry(QRect(290, 100, 41, 31));
-        b48->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_7 = new QPushButton(centralWidget);
-        b10_7->setObjectName(QStringLiteral("b10_7"));
-        b10_7->setGeometry(QRect(250, 280, 41, 31));
-        b10_7->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b71 = new QPushButton(centralWidget);
-        b71->setObjectName(QStringLiteral("b71"));
-        b71->setGeometry(QRect(10, 190, 41, 31));
-        b71->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b52 = new QPushButton(centralWidget);
-        b52->setObjectName(QStringLiteral("b52"));
-        b52->setGeometry(QRect(50, 130, 41, 31));
-        b52->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b8_10 = new QPushButton(centralWidget);
-        b8_10->setObjectName(QStringLiteral("b8_10"));
-        b8_10->setGeometry(QRect(370, 220, 41, 31));
-        b8_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b26 = new QPushButton(centralWidget);
-        b26->setObjectName(QStringLiteral("b26"));
-        b26->setGeometry(QRect(210, 40, 41, 31));
-        b26->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b43 = new QPushButton(centralWidget);
-        b43->setObjectName(QStringLiteral("b43"));
-        b43->setGeometry(QRect(90, 100, 41, 31));
-        b43->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b3_10 = new QPushButton(centralWidget);
-        b3_10->setObjectName(QStringLiteral("b3_10"));
-        b3_10->setGeometry(QRect(370, 70, 41, 31));
-        b3_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b76 = new QPushButton(centralWidget);
-        b76->setObjectName(QStringLiteral("b76"));
-        b76->setGeometry(QRect(210, 190, 41, 31));
-        b76->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b57 = new QPushButton(centralWidget);
-        b57->setObjectName(QStringLiteral("b57"));
-        b57->setGeometry(QRect(250, 130, 41, 31));
-        b57->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b62 = new QPushButton(centralWidget);
-        b62->setObjectName(QStringLiteral("b62"));
-        b62->setGeometry(QRect(50, 160, 41, 31));
-        b62->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b47 = new QPushButton(centralWidget);
-        b47->setObjectName(QStringLiteral("b47"));
-        b47->setGeometry(QRect(250, 100, 41, 31));
-        b47->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b22 = new QPushButton(centralWidget);
-        b22->setObjectName(QStringLiteral("b22"));
-        b22->setGeometry(QRect(50, 40, 41, 31));
-        b22->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b92 = new QPushButton(centralWidget);
-        b92->setObjectName(QStringLiteral("b92"));
-        b92->setGeometry(QRect(50, 250, 41, 31));
-        b92->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b17 = new QPushButton(centralWidget);
-        b17->setObjectName(QStringLiteral("b17"));
-        b17->setGeometry(QRect(250, 10, 41, 31));
-        b17->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b41 = new QPushButton(centralWidget);
-        b41->setObjectName(QStringLiteral("b41"));
-        b41->setGeometry(QRect(10, 100, 41, 31));
-        b41->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b67 = new QPushButton(centralWidget);
-        b67->setObjectName(QStringLiteral("b67"));
-        b67->setGeometry(QRect(250, 160, 41, 31));
-        b67->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b97 = new QPushButton(centralWidget);
-        b97->setObjectName(QStringLiteral("b97"));
-        b97->setGeometry(QRect(250, 250, 41, 31));
-        b97->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b46 = new QPushButton(centralWidget);
-        b46->setObjectName(QStringLiteral("b46"));
-        b46->setGeometry(QRect(210, 100, 41, 31));
-        b46->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b25 = new QPushButton(centralWidget);
-        b25->setObjectName(QStringLiteral("b25"));
-        b25->setGeometry(QRect(170, 40, 41, 31));
-        b25->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b51 = new QPushButton(centralWidget);
-        b51->setObjectName(QStringLiteral("b51"));
-        b51->setGeometry(QRect(10, 130, 41, 31));
-        b51->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_4 = new QPushButton(centralWidget);
-        b10_4->setObjectName(QStringLiteral("b10_4"));
-        b10_4->setGeometry(QRect(130, 280, 41, 31));
-        b10_4->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b12 = new QPushButton(centralWidget);
-        b12->setObjectName(QStringLiteral("b12"));
-        b12->setGeometry(QRect(50, 10, 41, 31));
-        b12->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_8 = new QPushButton(centralWidget);
-        b10_8->setObjectName(QStringLiteral("b10_8"));
-        b10_8->setGeometry(QRect(290, 280, 41, 31));
-        b10_8->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b39 = new QPushButton(centralWidget);
-        b39->setObjectName(QStringLiteral("b39"));
-        b39->setGeometry(QRect(330, 70, 41, 31));
-        b39->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b89 = new QPushButton(centralWidget);
-        b89->setObjectName(QStringLiteral("b89"));
-        b89->setGeometry(QRect(330, 220, 41, 31));
-        b89->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b81 = new QPushButton(centralWidget);
-        b81->setObjectName(QStringLiteral("b81"));
-        b81->setGeometry(QRect(10, 220, 41, 31));
-        b81->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_9 = new QPushButton(centralWidget);
-        b10_9->setObjectName(QStringLiteral("b10_9"));
-        b10_9->setGeometry(QRect(330, 280, 41, 31));
-        b10_9->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b87 = new QPushButton(centralWidget);
-        b87->setObjectName(QStringLiteral("b87"));
-        b87->setGeometry(QRect(250, 220, 41, 31));
-        b87->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b37 = new QPushButton(centralWidget);
-        b37->setObjectName(QStringLiteral("b37"));
-        b37->setGeometry(QRect(250, 70, 41, 31));
-        b37->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b59 = new QPushButton(centralWidget);
-        b59->setObjectName(QStringLiteral("b59"));
-        b59->setGeometry(QRect(330, 130, 41, 31));
-        b59->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b93 = new QPushButton(centralWidget);
-        b93->setObjectName(QStringLiteral("b93"));
-        b93->setGeometry(QRect(90, 250, 41, 31));
-        b93->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b91 = new QPushButton(centralWidget);
-        b91->setObjectName(QStringLiteral("b91"));
-        b91->setGeometry(QRect(10, 250, 41, 31));
-        b91->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b55 = new QPushButton(centralWidget);
-        b55->setObjectName(QStringLiteral("b55"));
-        b55->setGeometry(QRect(170, 130, 41, 31));
-        b55->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b86 = new QPushButton(centralWidget);
-        b86->setObjectName(QStringLiteral("b86"));
-        b86->setGeometry(QRect(210, 220, 41, 31));
-        b86->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b83 = new QPushButton(centralWidget);
-        b83->setObjectName(QStringLiteral("b83"));
-        b83->setGeometry(QRect(90, 220, 41, 31));
-        b83->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b9_10 = new QPushButton(centralWidget);
-        b9_10->setObjectName(QStringLiteral("b9_10"));
-        b9_10->setGeometry(QRect(370, 250, 41, 31));
-        b9_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b32 = new QPushButton(centralWidget);
-        b32->setObjectName(QStringLiteral("b32"));
-        b32->setGeometry(QRect(50, 70, 41, 31));
-        b32->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b73 = new QPushButton(centralWidget);
-        b73->setObjectName(QStringLiteral("b73"));
-        b73->setGeometry(QRect(90, 190, 41, 31));
-        b73->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b29 = new QPushButton(centralWidget);
-        b29->setObjectName(QStringLiteral("b29"));
-        b29->setGeometry(QRect(330, 40, 41, 31));
-        b29->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b58 = new QPushButton(centralWidget);
-        b58->setObjectName(QStringLiteral("b58"));
-        b58->setGeometry(QRect(290, 130, 41, 31));
-        b58->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b63 = new QPushButton(centralWidget);
-        b63->setObjectName(QStringLiteral("b63"));
-        b63->setGeometry(QRect(90, 160, 41, 31));
-        b63->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b74 = new QPushButton(centralWidget);
-        b74->setObjectName(QStringLiteral("b74"));
-        b74->setGeometry(QRect(130, 190, 41, 31));
-        b74->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b96 = new QPushButton(centralWidget);
-        b96->setObjectName(QStringLiteral("b96"));
-        b96->setGeometry(QRect(210, 250, 41, 31));
-        b96->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b68 = new QPushButton(centralWidget);
-        b68->setObjectName(QStringLiteral("b68"));
-        b68->setGeometry(QRect(290, 160, 41, 31));
-        b68->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b14 = new QPushButton(centralWidget);
-        b14->setObjectName(QStringLiteral("b14"));
-        b14->setGeometry(QRect(130, 10, 41, 31));
-        b14->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b16 = new QPushButton(centralWidget);
-        b16->setObjectName(QStringLiteral("b16"));
-        b16->setGeometry(QRect(210, 10, 41, 31));
-        b16->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b24 = new QPushButton(centralWidget);
-        b24->setObjectName(QStringLiteral("b24"));
-        b24->setGeometry(QRect(130, 40, 41, 31));
-        b24->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b19 = new QPushButton(centralWidget);
-        b19->setObjectName(QStringLiteral("b19"));
-        b19->setGeometry(QRect(330, 10, 41, 31));
-        b19->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b95 = new QPushButton(centralWidget);
-        b95->setObjectName(QStringLiteral("b95"));
-        b95->setGeometry(QRect(170, 250, 41, 31));
-        b95->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b31 = new QPushButton(centralWidget);
-        b31->setObjectName(QStringLiteral("b31"));
-        b31->setGeometry(QRect(10, 70, 41, 31));
-        b31->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b79 = new QPushButton(centralWidget);
-        b79->setObjectName(QStringLiteral("b79"));
-        b79->setGeometry(QRect(330, 190, 41, 31));
-        b79->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b56 = new QPushButton(centralWidget);
-        b56->setObjectName(QStringLiteral("b56"));
-        b56->setGeometry(QRect(210, 130, 41, 31));
-        b56->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b11 = new QPushButton(centralWidget);
-        b11->setObjectName(QStringLiteral("b11"));
-        b11->setGeometry(QRect(10, 10, 41, 31));
-        b11->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b18 = new QPushButton(centralWidget);
-        b18->setObjectName(QStringLiteral("b18"));
-        b18->setGeometry(QRect(290, 10, 41, 31));
-        b18->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_6 = new QPushButton(centralWidget);
-        b10_6->setObjectName(QStringLiteral("b10_6"));
-        b10_6->setGeometry(QRect(210, 280, 41, 31));
-        b10_6->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b36 = new QPushButton(centralWidget);
-        b36->setObjectName(QStringLiteral("b36"));
-        b36->setGeometry(QRect(210, 70, 41, 31));
-        b36->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b35 = new QPushButton(centralWidget);
-        b35->setObjectName(QStringLiteral("b35"));
-        b35->setGeometry(QRect(170, 70, 41, 31));
-        b35->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b72 = new QPushButton(centralWidget);
-        b72->setObjectName(QStringLiteral("b72"));
-        b72->setGeometry(QRect(50, 190, 41, 31));
-        b72->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(458, 60, 131, 31));
-        b69 = new QPushButton(centralWidget);
-        b69->setObjectName(QStringLiteral("b69"));
-        b69->setGeometry(QRect(330, 160, 41, 31));
-        b69->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b49 = new QPushButton(centralWidget);
-        b49->setObjectName(QStringLiteral("b49"));
-        b49->setGeometry(QRect(330, 100, 41, 31));
-        b49->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_1 = new QPushButton(centralWidget);
-        b10_1->setObjectName(QStringLiteral("b10_1"));
-        b10_1->setGeometry(QRect(10, 280, 41, 31));
-        b10_1->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b94 = new QPushButton(centralWidget);
-        b94->setObjectName(QStringLiteral("b94"));
-        b94->setGeometry(QRect(130, 250, 41, 31));
-        b94->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b65 = new QPushButton(centralWidget);
-        b65->setObjectName(QStringLiteral("b65"));
-        b65->setGeometry(QRect(170, 160, 41, 31));
-        b65->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b15 = new QPushButton(centralWidget);
-        b15->setObjectName(QStringLiteral("b15"));
-        b15->setGeometry(QRect(170, 10, 41, 31));
-        b15->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b28 = new QPushButton(centralWidget);
-        b28->setObjectName(QStringLiteral("b28"));
-        b28->setGeometry(QRect(290, 40, 41, 31));
-        b28->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b78 = new QPushButton(centralWidget);
-        b78->setObjectName(QStringLiteral("b78"));
-        b78->setGeometry(QRect(290, 190, 41, 31));
-        b78->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b10_2 = new QPushButton(centralWidget);
-        b10_2->setObjectName(QStringLiteral("b10_2"));
-        b10_2->setGeometry(QRect(50, 280, 41, 31));
-        b10_2->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b75 = new QPushButton(centralWidget);
-        b75->setObjectName(QStringLiteral("b75"));
-        b75->setGeometry(QRect(170, 190, 41, 31));
-        b75->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b98 = new QPushButton(centralWidget);
-        b98->setObjectName(QStringLiteral("b98"));
-        b98->setGeometry(QRect(290, 250, 41, 31));
-        b98->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b21 = new QPushButton(centralWidget);
-        b21->setObjectName(QStringLiteral("b21"));
-        b21->setGeometry(QRect(10, 40, 41, 31));
-        b21->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b2_10 = new QPushButton(centralWidget);
-        b2_10->setObjectName(QStringLiteral("b2_10"));
-        b2_10->setGeometry(QRect(370, 40, 41, 31));
-        b2_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b53 = new QPushButton(centralWidget);
-        b53->setObjectName(QStringLiteral("b53"));
-        b53->setGeometry(QRect(90, 130, 41, 31));
-        b53->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b7_10 = new QPushButton(centralWidget);
-        b7_10->setObjectName(QStringLiteral("b7_10"));
-        b7_10->setGeometry(QRect(370, 190, 41, 31));
-        b7_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b99 = new QPushButton(centralWidget);
-        b99->setObjectName(QStringLiteral("b99"));
-        b99->setGeometry(QRect(330, 250, 41, 31));
-        b99->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b23 = new QPushButton(centralWidget);
-        b23->setObjectName(QStringLiteral("b23"));
-        b23->setGeometry(QRect(90, 40, 41, 31));
-        b23->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b54 = new QPushButton(centralWidget);
-        b54->setObjectName(QStringLiteral("b54"));
-        b54->setGeometry(QRect(130, 130, 41, 31));
-        b54->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b5_10 = new QPushButton(centralWidget);
-        b5_10->setObjectName(QStringLiteral("b5_10"));
-        b5_10->setGeometry(QRect(370, 130, 41, 31));
-        b5_10->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
-        b66 = new QPushButton(centralWidget);
-        b66->setObjectName(QStringLiteral("b66"));
-        b66->setGeometry(QRect(210, 160, 41, 31));
-        b66->setStyleSheet(QLatin1String("QPushButton{\n"
-"	background-color: #C0C0C0;\n"
-"	border: 1px solid gray;\n"
-"	padding: 5px\n"
-"}"));
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        p37 = new QPushButton(centralWidget);
+        p37->setObjectName(QString::fromUtf8("p37"));
+        p37->setGeometry(QRect(230, 90, 30, 30));
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(5);
+        sizePolicy.setVerticalStretch(5);
+        sizePolicy.setHeightForWidth(p37->sizePolicy().hasHeightForWidth());
+        p37->setSizePolicy(sizePolicy);
+        p37->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p37->setAutoRepeatDelay(100);
+        p65 = new QPushButton(centralWidget);
+        p65->setObjectName(QString::fromUtf8("p65"));
+        p65->setGeometry(QRect(170, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p65->sizePolicy().hasHeightForWidth());
+        p65->setSizePolicy(sizePolicy);
+        p65->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p65->setAutoRepeatDelay(100);
+        p31 = new QPushButton(centralWidget);
+        p31->setObjectName(QString::fromUtf8("p31"));
+        p31->setGeometry(QRect(50, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p31->sizePolicy().hasHeightForWidth());
+        p31->setSizePolicy(sizePolicy);
+        p31->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p31->setAutoRepeatDelay(100);
+        p82 = new QPushButton(centralWidget);
+        p82->setObjectName(QString::fromUtf8("p82"));
+        p82->setGeometry(QRect(80, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p82->sizePolicy().hasHeightForWidth());
+        p82->setSizePolicy(sizePolicy);
+        p82->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p82->setAutoRepeatDelay(100);
+        p77 = new QPushButton(centralWidget);
+        p77->setObjectName(QString::fromUtf8("p77"));
+        p77->setGeometry(QRect(230, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p77->sizePolicy().hasHeightForWidth());
+        p77->setSizePolicy(sizePolicy);
+        p77->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p77->setAutoRepeatDelay(100);
+        p21 = new QPushButton(centralWidget);
+        p21->setObjectName(QString::fromUtf8("p21"));
+        p21->setGeometry(QRect(50, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p21->sizePolicy().hasHeightForWidth());
+        p21->setSizePolicy(sizePolicy);
+        p21->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p21->setAutoRepeatDelay(100);
+        p94 = new QPushButton(centralWidget);
+        p94->setObjectName(QString::fromUtf8("p94"));
+        p94->setGeometry(QRect(140, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p94->sizePolicy().hasHeightForWidth());
+        p94->setSizePolicy(sizePolicy);
+        p94->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p94->setAutoRepeatDelay(100);
+        p39 = new QPushButton(centralWidget);
+        p39->setObjectName(QString::fromUtf8("p39"));
+        p39->setGeometry(QRect(290, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p39->sizePolicy().hasHeightForWidth());
+        p39->setSizePolicy(sizePolicy);
+        p39->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p39->setAutoRepeatDelay(100);
+        p61 = new QPushButton(centralWidget);
+        p61->setObjectName(QString::fromUtf8("p61"));
+        p61->setGeometry(QRect(50, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p61->sizePolicy().hasHeightForWidth());
+        p61->setSizePolicy(sizePolicy);
+        p61->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p61->setAutoRepeatDelay(100);
+        p07 = new QPushButton(centralWidget);
+        p07->setObjectName(QString::fromUtf8("p07"));
+        p07->setGeometry(QRect(230, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p07->sizePolicy().hasHeightForWidth());
+        p07->setSizePolicy(sizePolicy);
+        p07->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p07->setAutoRepeatDelay(100);
+        p17 = new QPushButton(centralWidget);
+        p17->setObjectName(QString::fromUtf8("p17"));
+        p17->setGeometry(QRect(230, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p17->sizePolicy().hasHeightForWidth());
+        p17->setSizePolicy(sizePolicy);
+        p17->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p17->setAutoRepeatDelay(100);
+        p96 = new QPushButton(centralWidget);
+        p96->setObjectName(QString::fromUtf8("p96"));
+        p96->setGeometry(QRect(200, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p96->sizePolicy().hasHeightForWidth());
+        p96->setSizePolicy(sizePolicy);
+        p96->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p96->setAutoRepeatDelay(100);
+        p06 = new QPushButton(centralWidget);
+        p06->setObjectName(QString::fromUtf8("p06"));
+        p06->setGeometry(QRect(200, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p06->sizePolicy().hasHeightForWidth());
+        p06->setSizePolicy(sizePolicy);
+        p06->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p06->setAutoRepeatDelay(100);
+        p85 = new QPushButton(centralWidget);
+        p85->setObjectName(QString::fromUtf8("p85"));
+        p85->setGeometry(QRect(170, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p85->sizePolicy().hasHeightForWidth());
+        p85->setSizePolicy(sizePolicy);
+        p85->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p85->setAutoRepeatDelay(100);
+        p52 = new QPushButton(centralWidget);
+        p52->setObjectName(QString::fromUtf8("p52"));
+        p52->setGeometry(QRect(80, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p52->sizePolicy().hasHeightForWidth());
+        p52->setSizePolicy(sizePolicy);
+        p52->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p52->setAutoRepeatDelay(100);
+        p18 = new QPushButton(centralWidget);
+        p18->setObjectName(QString::fromUtf8("p18"));
+        p18->setGeometry(QRect(260, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p18->sizePolicy().hasHeightForWidth());
+        p18->setSizePolicy(sizePolicy);
+        p18->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p18->setAutoRepeatDelay(100);
+        p09 = new QPushButton(centralWidget);
+        p09->setObjectName(QString::fromUtf8("p09"));
+        p09->setGeometry(QRect(290, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p09->sizePolicy().hasHeightForWidth());
+        p09->setSizePolicy(sizePolicy);
+        p09->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p09->setAutoRepeatDelay(100);
+        p26 = new QPushButton(centralWidget);
+        p26->setObjectName(QString::fromUtf8("p26"));
+        p26->setGeometry(QRect(200, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p26->sizePolicy().hasHeightForWidth());
+        p26->setSizePolicy(sizePolicy);
+        p26->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p26->setAutoRepeatDelay(100);
+        p99 = new QPushButton(centralWidget);
+        p99->setObjectName(QString::fromUtf8("p99"));
+        p99->setGeometry(QRect(290, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p99->sizePolicy().hasHeightForWidth());
+        p99->setSizePolicy(sizePolicy);
+        p99->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p99->setAutoRepeatDelay(100);
+        postavi = new QPushButton(centralWidget);
+        postavi->setObjectName(QString::fromUtf8("postavi"));
+        postavi->setGeometry(QRect(360, 10, 101, 31));
+        p01 = new QPushButton(centralWidget);
+        p01->setObjectName(QString::fromUtf8("p01"));
+        p01->setGeometry(QRect(50, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p01->sizePolicy().hasHeightForWidth());
+        p01->setSizePolicy(sizePolicy);
+        p01->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p01->setAutoRepeatDelay(100);
+        p30 = new QPushButton(centralWidget);
+        p30->setObjectName(QString::fromUtf8("p30"));
+        p30->setGeometry(QRect(20, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p30->sizePolicy().hasHeightForWidth());
+        p30->setSizePolicy(sizePolicy);
+        p30->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p30->setAutoRepeatDelay(100);
+        p78 = new QPushButton(centralWidget);
+        p78->setObjectName(QString::fromUtf8("p78"));
+        p78->setGeometry(QRect(260, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p78->sizePolicy().hasHeightForWidth());
+        p78->setSizePolicy(sizePolicy);
+        p78->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p78->setAutoRepeatDelay(100);
+        p33 = new QPushButton(centralWidget);
+        p33->setObjectName(QString::fromUtf8("p33"));
+        p33->setGeometry(QRect(110, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p33->sizePolicy().hasHeightForWidth());
+        p33->setSizePolicy(sizePolicy);
+        p33->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p33->setAutoRepeatDelay(100);
+        p10 = new QPushButton(centralWidget);
+        p10->setObjectName(QString::fromUtf8("p10"));
+        p10->setGeometry(QRect(20, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p10->sizePolicy().hasHeightForWidth());
+        p10->setSizePolicy(sizePolicy);
+        p10->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p10->setAutoRepeatDelay(100);
+        p55 = new QPushButton(centralWidget);
+        p55->setObjectName(QString::fromUtf8("p55"));
+        p55->setGeometry(QRect(170, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p55->sizePolicy().hasHeightForWidth());
+        p55->setSizePolicy(sizePolicy);
+        p55->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p55->setAutoRepeatDelay(100);
+        p46 = new QPushButton(centralWidget);
+        p46->setObjectName(QString::fromUtf8("p46"));
+        p46->setGeometry(QRect(200, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p46->sizePolicy().hasHeightForWidth());
+        p46->setSizePolicy(sizePolicy);
+        p46->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p46->setAutoRepeatDelay(100);
+        p51 = new QPushButton(centralWidget);
+        p51->setObjectName(QString::fromUtf8("p51"));
+        p51->setGeometry(QRect(50, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p51->sizePolicy().hasHeightForWidth());
+        p51->setSizePolicy(sizePolicy);
+        p51->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p51->setAutoRepeatDelay(100);
+        p72 = new QPushButton(centralWidget);
+        p72->setObjectName(QString::fromUtf8("p72"));
+        p72->setGeometry(QRect(80, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p72->sizePolicy().hasHeightForWidth());
+        p72->setSizePolicy(sizePolicy);
+        p72->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p72->setAutoRepeatDelay(100);
+        p90 = new QPushButton(centralWidget);
+        p90->setObjectName(QString::fromUtf8("p90"));
+        p90->setGeometry(QRect(20, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p90->sizePolicy().hasHeightForWidth());
+        p90->setSizePolicy(sizePolicy);
+        p90->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p90->setAutoRepeatDelay(100);
+        p40 = new QPushButton(centralWidget);
+        p40->setObjectName(QString::fromUtf8("p40"));
+        p40->setGeometry(QRect(20, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p40->sizePolicy().hasHeightForWidth());
+        p40->setSizePolicy(sizePolicy);
+        p40->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p40->setAutoRepeatDelay(100);
+        p56 = new QPushButton(centralWidget);
+        p56->setObjectName(QString::fromUtf8("p56"));
+        p56->setGeometry(QRect(200, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p56->sizePolicy().hasHeightForWidth());
+        p56->setSizePolicy(sizePolicy);
+        p56->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p56->setAutoRepeatDelay(100);
+        p41 = new QPushButton(centralWidget);
+        p41->setObjectName(QString::fromUtf8("p41"));
+        p41->setGeometry(QRect(50, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p41->sizePolicy().hasHeightForWidth());
+        p41->setSizePolicy(sizePolicy);
+        p41->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p41->setAutoRepeatDelay(100);
+        p36 = new QPushButton(centralWidget);
+        p36->setObjectName(QString::fromUtf8("p36"));
+        p36->setGeometry(QRect(200, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p36->sizePolicy().hasHeightForWidth());
+        p36->setSizePolicy(sizePolicy);
+        p36->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p36->setAutoRepeatDelay(100);
+        p38 = new QPushButton(centralWidget);
+        p38->setObjectName(QString::fromUtf8("p38"));
+        p38->setGeometry(QRect(260, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p38->sizePolicy().hasHeightForWidth());
+        p38->setSizePolicy(sizePolicy);
+        p38->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p38->setAutoRepeatDelay(100);
+        p68 = new QPushButton(centralWidget);
+        p68->setObjectName(QString::fromUtf8("p68"));
+        p68->setGeometry(QRect(260, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p68->sizePolicy().hasHeightForWidth());
+        p68->setSizePolicy(sizePolicy);
+        p68->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p68->setAutoRepeatDelay(100);
+        p04 = new QPushButton(centralWidget);
+        p04->setObjectName(QString::fromUtf8("p04"));
+        p04->setGeometry(QRect(140, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p04->sizePolicy().hasHeightForWidth());
+        p04->setSizePolicy(sizePolicy);
+        p04->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p04->setAutoRepeatDelay(100);
+        p32 = new QPushButton(centralWidget);
+        p32->setObjectName(QString::fromUtf8("p32"));
+        p32->setGeometry(QRect(80, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p32->sizePolicy().hasHeightForWidth());
+        p32->setSizePolicy(sizePolicy);
+        p32->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p32->setAutoRepeatDelay(100);
+        p62 = new QPushButton(centralWidget);
+        p62->setObjectName(QString::fromUtf8("p62"));
+        p62->setGeometry(QRect(80, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p62->sizePolicy().hasHeightForWidth());
+        p62->setSizePolicy(sizePolicy);
+        p62->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p62->setAutoRepeatDelay(100);
+        p95 = new QPushButton(centralWidget);
+        p95->setObjectName(QString::fromUtf8("p95"));
+        p95->setGeometry(QRect(170, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p95->sizePolicy().hasHeightForWidth());
+        p95->setSizePolicy(sizePolicy);
+        p95->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p95->setAutoRepeatDelay(100);
+        p60 = new QPushButton(centralWidget);
+        p60->setObjectName(QString::fromUtf8("p60"));
+        p60->setGeometry(QRect(20, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p60->sizePolicy().hasHeightForWidth());
+        p60->setSizePolicy(sizePolicy);
+        p60->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p60->setAutoRepeatDelay(100);
+        p11 = new QPushButton(centralWidget);
+        p11->setObjectName(QString::fromUtf8("p11"));
+        p11->setGeometry(QRect(50, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p11->sizePolicy().hasHeightForWidth());
+        p11->setSizePolicy(sizePolicy);
+        p11->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p11->setAutoRepeatDelay(100);
+        p81 = new QPushButton(centralWidget);
+        p81->setObjectName(QString::fromUtf8("p81"));
+        p81->setGeometry(QRect(50, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p81->sizePolicy().hasHeightForWidth());
+        p81->setSizePolicy(sizePolicy);
+        p81->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p81->setAutoRepeatDelay(100);
+        p05 = new QPushButton(centralWidget);
+        p05->setObjectName(QString::fromUtf8("p05"));
+        p05->setGeometry(QRect(170, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p05->sizePolicy().hasHeightForWidth());
+        p05->setSizePolicy(sizePolicy);
+        p05->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p05->setAutoRepeatDelay(100);
+        p64 = new QPushButton(centralWidget);
+        p64->setObjectName(QString::fromUtf8("p64"));
+        p64->setGeometry(QRect(140, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p64->sizePolicy().hasHeightForWidth());
+        p64->setSizePolicy(sizePolicy);
+        p64->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p64->setAutoRepeatDelay(100);
+        p19 = new QPushButton(centralWidget);
+        p19->setObjectName(QString::fromUtf8("p19"));
+        p19->setGeometry(QRect(290, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p19->sizePolicy().hasHeightForWidth());
+        p19->setSizePolicy(sizePolicy);
+        p19->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p19->setAutoRepeatDelay(100);
+        p89 = new QPushButton(centralWidget);
+        p89->setObjectName(QString::fromUtf8("p89"));
+        p89->setGeometry(QRect(290, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p89->sizePolicy().hasHeightForWidth());
+        p89->setSizePolicy(sizePolicy);
+        p89->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p89->setAutoRepeatDelay(100);
+        p79 = new QPushButton(centralWidget);
+        p79->setObjectName(QString::fromUtf8("p79"));
+        p79->setGeometry(QRect(290, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p79->sizePolicy().hasHeightForWidth());
+        p79->setSizePolicy(sizePolicy);
+        p79->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p79->setAutoRepeatDelay(100);
+        p80 = new QPushButton(centralWidget);
+        p80->setObjectName(QString::fromUtf8("p80"));
+        p80->setGeometry(QRect(20, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p80->sizePolicy().hasHeightForWidth());
+        p80->setSizePolicy(sizePolicy);
+        p80->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p80->setAutoRepeatDelay(100);
+        p16 = new QPushButton(centralWidget);
+        p16->setObjectName(QString::fromUtf8("p16"));
+        p16->setGeometry(QRect(200, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p16->sizePolicy().hasHeightForWidth());
+        p16->setSizePolicy(sizePolicy);
+        p16->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p16->setAutoRepeatDelay(100);
+        p76 = new QPushButton(centralWidget);
+        p76->setObjectName(QString::fromUtf8("p76"));
+        p76->setGeometry(QRect(200, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p76->sizePolicy().hasHeightForWidth());
+        p76->setSizePolicy(sizePolicy);
+        p76->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p76->setAutoRepeatDelay(100);
+        p93 = new QPushButton(centralWidget);
+        p93->setObjectName(QString::fromUtf8("p93"));
+        p93->setGeometry(QRect(110, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p93->sizePolicy().hasHeightForWidth());
+        p93->setSizePolicy(sizePolicy);
+        p93->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p93->setAutoRepeatDelay(100);
+        p34 = new QPushButton(centralWidget);
+        p34->setObjectName(QString::fromUtf8("p34"));
+        p34->setGeometry(QRect(140, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p34->sizePolicy().hasHeightForWidth());
+        p34->setSizePolicy(sizePolicy);
+        p34->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p34->setAutoRepeatDelay(100);
+        p59 = new QPushButton(centralWidget);
+        p59->setObjectName(QString::fromUtf8("p59"));
+        p59->setGeometry(QRect(290, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p59->sizePolicy().hasHeightForWidth());
+        p59->setSizePolicy(sizePolicy);
+        p59->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p59->setAutoRepeatDelay(100);
+        p73 = new QPushButton(centralWidget);
+        p73->setObjectName(QString::fromUtf8("p73"));
+        p73->setGeometry(QRect(110, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p73->sizePolicy().hasHeightForWidth());
+        p73->setSizePolicy(sizePolicy);
+        p73->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p73->setAutoRepeatDelay(100);
+        p27 = new QPushButton(centralWidget);
+        p27->setObjectName(QString::fromUtf8("p27"));
+        p27->setGeometry(QRect(230, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p27->sizePolicy().hasHeightForWidth());
+        p27->setSizePolicy(sizePolicy);
+        p27->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p27->setAutoRepeatDelay(100);
+        p44 = new QPushButton(centralWidget);
+        p44->setObjectName(QString::fromUtf8("p44"));
+        p44->setGeometry(QRect(140, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p44->sizePolicy().hasHeightForWidth());
+        p44->setSizePolicy(sizePolicy);
+        p44->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p44->setAutoRepeatDelay(100);
+        p74 = new QPushButton(centralWidget);
+        p74->setObjectName(QString::fromUtf8("p74"));
+        p74->setGeometry(QRect(140, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p74->sizePolicy().hasHeightForWidth());
+        p74->setSizePolicy(sizePolicy);
+        p74->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p74->setAutoRepeatDelay(100);
+        p25 = new QPushButton(centralWidget);
+        p25->setObjectName(QString::fromUtf8("p25"));
+        p25->setGeometry(QRect(170, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p25->sizePolicy().hasHeightForWidth());
+        p25->setSizePolicy(sizePolicy);
+        p25->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p25->setAutoRepeatDelay(100);
+        p58 = new QPushButton(centralWidget);
+        p58->setObjectName(QString::fromUtf8("p58"));
+        p58->setGeometry(QRect(260, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p58->sizePolicy().hasHeightForWidth());
+        p58->setSizePolicy(sizePolicy);
+        p58->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p58->setAutoRepeatDelay(100);
+        p53 = new QPushButton(centralWidget);
+        p53->setObjectName(QString::fromUtf8("p53"));
+        p53->setGeometry(QRect(110, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p53->sizePolicy().hasHeightForWidth());
+        p53->setSizePolicy(sizePolicy);
+        p53->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p53->setAutoRepeatDelay(100);
+        p49 = new QPushButton(centralWidget);
+        p49->setObjectName(QString::fromUtf8("p49"));
+        p49->setGeometry(QRect(290, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p49->sizePolicy().hasHeightForWidth());
+        p49->setSizePolicy(sizePolicy);
+        p49->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p49->setAutoRepeatDelay(100);
+        p92 = new QPushButton(centralWidget);
+        p92->setObjectName(QString::fromUtf8("p92"));
+        p92->setGeometry(QRect(80, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p92->sizePolicy().hasHeightForWidth());
+        p92->setSizePolicy(sizePolicy);
+        p92->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p92->setAutoRepeatDelay(100);
+        p86 = new QPushButton(centralWidget);
+        p86->setObjectName(QString::fromUtf8("p86"));
+        p86->setGeometry(QRect(200, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p86->sizePolicy().hasHeightForWidth());
+        p86->setSizePolicy(sizePolicy);
+        p86->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p86->setAutoRepeatDelay(100);
+        p35 = new QPushButton(centralWidget);
+        p35->setObjectName(QString::fromUtf8("p35"));
+        p35->setGeometry(QRect(170, 90, 30, 30));
+        sizePolicy.setHeightForWidth(p35->sizePolicy().hasHeightForWidth());
+        p35->setSizePolicy(sizePolicy);
+        p35->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p35->setAutoRepeatDelay(100);
+        p15 = new QPushButton(centralWidget);
+        p15->setObjectName(QString::fromUtf8("p15"));
+        p15->setGeometry(QRect(170, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p15->sizePolicy().hasHeightForWidth());
+        p15->setSizePolicy(sizePolicy);
+        p15->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p15->setAutoRepeatDelay(100);
+        p29 = new QPushButton(centralWidget);
+        p29->setObjectName(QString::fromUtf8("p29"));
+        p29->setGeometry(QRect(290, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p29->sizePolicy().hasHeightForWidth());
+        p29->setSizePolicy(sizePolicy);
+        p29->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p29->setAutoRepeatDelay(100);
+        p70 = new QPushButton(centralWidget);
+        p70->setObjectName(QString::fromUtf8("p70"));
+        p70->setGeometry(QRect(20, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p70->sizePolicy().hasHeightForWidth());
+        p70->setSizePolicy(sizePolicy);
+        p70->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p70->setAutoRepeatDelay(100);
+        p12 = new QPushButton(centralWidget);
+        p12->setObjectName(QString::fromUtf8("p12"));
+        p12->setGeometry(QRect(80, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p12->sizePolicy().hasHeightForWidth());
+        p12->setSizePolicy(sizePolicy);
+        p12->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p12->setAutoRepeatDelay(100);
+        p24 = new QPushButton(centralWidget);
+        p24->setObjectName(QString::fromUtf8("p24"));
+        p24->setGeometry(QRect(140, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p24->sizePolicy().hasHeightForWidth());
+        p24->setSizePolicy(sizePolicy);
+        p24->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p24->setAutoRepeatDelay(100);
+        p48 = new QPushButton(centralWidget);
+        p48->setObjectName(QString::fromUtf8("p48"));
+        p48->setGeometry(QRect(260, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p48->sizePolicy().hasHeightForWidth());
+        p48->setSizePolicy(sizePolicy);
+        p48->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p48->setAutoRepeatDelay(100);
+        p45 = new QPushButton(centralWidget);
+        p45->setObjectName(QString::fromUtf8("p45"));
+        p45->setGeometry(QRect(170, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p45->sizePolicy().hasHeightForWidth());
+        p45->setSizePolicy(sizePolicy);
+        p45->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p45->setAutoRepeatDelay(100);
+        p22 = new QPushButton(centralWidget);
+        p22->setObjectName(QString::fromUtf8("p22"));
+        p22->setGeometry(QRect(80, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p22->sizePolicy().hasHeightForWidth());
+        p22->setSizePolicy(sizePolicy);
+        p22->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p22->setAutoRepeatDelay(100);
+        p50 = new QPushButton(centralWidget);
+        p50->setObjectName(QString::fromUtf8("p50"));
+        p50->setGeometry(QRect(20, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p50->sizePolicy().hasHeightForWidth());
+        p50->setSizePolicy(sizePolicy);
+        p50->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p50->setAutoRepeatDelay(100);
+        p87 = new QPushButton(centralWidget);
+        p87->setObjectName(QString::fromUtf8("p87"));
+        p87->setGeometry(QRect(230, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p87->sizePolicy().hasHeightForWidth());
+        p87->setSizePolicy(sizePolicy);
+        p87->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p87->setAutoRepeatDelay(100);
+        p43 = new QPushButton(centralWidget);
+        p43->setObjectName(QString::fromUtf8("p43"));
+        p43->setGeometry(QRect(110, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p43->sizePolicy().hasHeightForWidth());
+        p43->setSizePolicy(sizePolicy);
+        p43->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p43->setAutoRepeatDelay(100);
+        p28 = new QPushButton(centralWidget);
+        p28->setObjectName(QString::fromUtf8("p28"));
+        p28->setGeometry(QRect(260, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p28->sizePolicy().hasHeightForWidth());
+        p28->setSizePolicy(sizePolicy);
+        p28->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p28->setAutoRepeatDelay(100);
+        p98 = new QPushButton(centralWidget);
+        p98->setObjectName(QString::fromUtf8("p98"));
+        p98->setGeometry(QRect(260, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p98->sizePolicy().hasHeightForWidth());
+        p98->setSizePolicy(sizePolicy);
+        p98->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p98->setAutoRepeatDelay(100);
+        p13 = new QPushButton(centralWidget);
+        p13->setObjectName(QString::fromUtf8("p13"));
+        p13->setGeometry(QRect(110, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p13->sizePolicy().hasHeightForWidth());
+        p13->setSizePolicy(sizePolicy);
+        p13->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p13->setAutoRepeatDelay(100);
+        p54 = new QPushButton(centralWidget);
+        p54->setObjectName(QString::fromUtf8("p54"));
+        p54->setGeometry(QRect(140, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p54->sizePolicy().hasHeightForWidth());
+        p54->setSizePolicy(sizePolicy);
+        p54->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p54->setAutoRepeatDelay(100);
+        p69 = new QPushButton(centralWidget);
+        p69->setObjectName(QString::fromUtf8("p69"));
+        p69->setGeometry(QRect(290, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p69->sizePolicy().hasHeightForWidth());
+        p69->setSizePolicy(sizePolicy);
+        p69->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p69->setAutoRepeatDelay(100);
+        p20 = new QPushButton(centralWidget);
+        p20->setObjectName(QString::fromUtf8("p20"));
+        p20->setGeometry(QRect(20, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p20->sizePolicy().hasHeightForWidth());
+        p20->setSizePolicy(sizePolicy);
+        p20->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p20->setAutoRepeatDelay(100);
+        p91 = new QPushButton(centralWidget);
+        p91->setObjectName(QString::fromUtf8("p91"));
+        p91->setGeometry(QRect(50, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p91->sizePolicy().hasHeightForWidth());
+        p91->setSizePolicy(sizePolicy);
+        p91->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p91->setAutoRepeatDelay(100);
+        p03 = new QPushButton(centralWidget);
+        p03->setObjectName(QString::fromUtf8("p03"));
+        p03->setGeometry(QRect(110, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p03->sizePolicy().hasHeightForWidth());
+        p03->setSizePolicy(sizePolicy);
+        p03->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p03->setAutoRepeatDelay(100);
+        p83 = new QPushButton(centralWidget);
+        p83->setObjectName(QString::fromUtf8("p83"));
+        p83->setGeometry(QRect(110, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p83->sizePolicy().hasHeightForWidth());
+        p83->setSizePolicy(sizePolicy);
+        p83->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p83->setAutoRepeatDelay(100);
+        p00 = new QPushButton(centralWidget);
+        p00->setObjectName(QString::fromUtf8("p00"));
+        p00->setGeometry(QRect(20, 0, 30, 30));
+        QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(p00->sizePolicy().hasHeightForWidth());
+        p00->setSizePolicy(sizePolicy1);
+        p00->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p00->setAutoRepeatDelay(100);
+        p88 = new QPushButton(centralWidget);
+        p88->setObjectName(QString::fromUtf8("p88"));
+        p88->setGeometry(QRect(260, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p88->sizePolicy().hasHeightForWidth());
+        p88->setSizePolicy(sizePolicy);
+        p88->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p88->setAutoRepeatDelay(100);
+        p84 = new QPushButton(centralWidget);
+        p84->setObjectName(QString::fromUtf8("p84"));
+        p84->setGeometry(QRect(140, 240, 30, 30));
+        sizePolicy.setHeightForWidth(p84->sizePolicy().hasHeightForWidth());
+        p84->setSizePolicy(sizePolicy);
+        p84->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p84->setAutoRepeatDelay(100);
+        p47 = new QPushButton(centralWidget);
+        p47->setObjectName(QString::fromUtf8("p47"));
+        p47->setGeometry(QRect(230, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p47->sizePolicy().hasHeightForWidth());
+        p47->setSizePolicy(sizePolicy);
+        p47->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p47->setAutoRepeatDelay(100);
+        p75 = new QPushButton(centralWidget);
+        p75->setObjectName(QString::fromUtf8("p75"));
+        p75->setGeometry(QRect(170, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p75->sizePolicy().hasHeightForWidth());
+        p75->setSizePolicy(sizePolicy);
+        p75->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p75->setAutoRepeatDelay(100);
+        p02 = new QPushButton(centralWidget);
+        p02->setObjectName(QString::fromUtf8("p02"));
+        p02->setGeometry(QRect(80, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p02->sizePolicy().hasHeightForWidth());
+        p02->setSizePolicy(sizePolicy);
+        p02->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p02->setAutoRepeatDelay(100);
+        p23 = new QPushButton(centralWidget);
+        p23->setObjectName(QString::fromUtf8("p23"));
+        p23->setGeometry(QRect(110, 60, 30, 30));
+        sizePolicy.setHeightForWidth(p23->sizePolicy().hasHeightForWidth());
+        p23->setSizePolicy(sizePolicy);
+        p23->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p23->setAutoRepeatDelay(100);
+        p57 = new QPushButton(centralWidget);
+        p57->setObjectName(QString::fromUtf8("p57"));
+        p57->setGeometry(QRect(230, 150, 30, 30));
+        sizePolicy.setHeightForWidth(p57->sizePolicy().hasHeightForWidth());
+        p57->setSizePolicy(sizePolicy);
+        p57->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p57->setAutoRepeatDelay(100);
+        p08 = new QPushButton(centralWidget);
+        p08->setObjectName(QString::fromUtf8("p08"));
+        p08->setGeometry(QRect(260, 0, 30, 30));
+        sizePolicy.setHeightForWidth(p08->sizePolicy().hasHeightForWidth());
+        p08->setSizePolicy(sizePolicy);
+        p08->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p08->setAutoRepeatDelay(100);
+        p42 = new QPushButton(centralWidget);
+        p42->setObjectName(QString::fromUtf8("p42"));
+        p42->setGeometry(QRect(80, 120, 30, 30));
+        sizePolicy.setHeightForWidth(p42->sizePolicy().hasHeightForWidth());
+        p42->setSizePolicy(sizePolicy);
+        p42->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p42->setAutoRepeatDelay(100);
+        p71 = new QPushButton(centralWidget);
+        p71->setObjectName(QString::fromUtf8("p71"));
+        p71->setGeometry(QRect(50, 210, 30, 30));
+        sizePolicy.setHeightForWidth(p71->sizePolicy().hasHeightForWidth());
+        p71->setSizePolicy(sizePolicy);
+        p71->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p71->setAutoRepeatDelay(100);
+        p67 = new QPushButton(centralWidget);
+        p67->setObjectName(QString::fromUtf8("p67"));
+        p67->setGeometry(QRect(230, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p67->sizePolicy().hasHeightForWidth());
+        p67->setSizePolicy(sizePolicy);
+        p67->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p67->setAutoRepeatDelay(100);
+        p97 = new QPushButton(centralWidget);
+        p97->setObjectName(QString::fromUtf8("p97"));
+        p97->setGeometry(QRect(230, 270, 30, 30));
+        sizePolicy.setHeightForWidth(p97->sizePolicy().hasHeightForWidth());
+        p97->setSizePolicy(sizePolicy);
+        p97->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p97->setAutoRepeatDelay(100);
+        p14 = new QPushButton(centralWidget);
+        p14->setObjectName(QString::fromUtf8("p14"));
+        p14->setGeometry(QRect(140, 30, 30, 30));
+        sizePolicy.setHeightForWidth(p14->sizePolicy().hasHeightForWidth());
+        p14->setSizePolicy(sizePolicy);
+        p14->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p14->setAutoRepeatDelay(100);
+        p66 = new QPushButton(centralWidget);
+        p66->setObjectName(QString::fromUtf8("p66"));
+        p66->setGeometry(QRect(200, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p66->sizePolicy().hasHeightForWidth());
+        p66->setSizePolicy(sizePolicy);
+        p66->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p66->setAutoRepeatDelay(100);
+        p63 = new QPushButton(centralWidget);
+        p63->setObjectName(QString::fromUtf8("p63"));
+        p63->setGeometry(QRect(110, 180, 30, 30));
+        sizePolicy.setHeightForWidth(p63->sizePolicy().hasHeightForWidth());
+        p63->setSizePolicy(sizePolicy);
+        p63->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"		 border: 1px solid gray;\n"
+"         background-color: #D8BFD8;\n"
+"}"));
+        p63->setAutoRepeatDelay(100);
         lineEdit = new QLineEdit(centralWidget);
-        lineEdit->setObjectName(QStringLiteral("lineEdit"));
-        lineEdit->setGeometry(QRect(450, 190, 113, 25));
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setGeometry(QRect(360, 120, 113, 25));
         PodmorniceGUI->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(PodmorniceGUI);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
+        menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 655, 22));
         PodmorniceGUI->setMenuBar(menuBar);
         mainToolBar = new QToolBar(PodmorniceGUI);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
+        mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
         PodmorniceGUI->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(PodmorniceGUI);
-        statusBar->setObjectName(QStringLiteral("statusBar"));
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
         PodmorniceGUI->setStatusBar(statusBar);
 
         retranslateUi(PodmorniceGUI);
@@ -966,108 +1169,108 @@ public:
 
     void retranslateUi(QMainWindow *PodmorniceGUI)
     {
-        PodmorniceGUI->setWindowTitle(QApplication::translate("PodmorniceGUI", "PodmorniceGUI", Q_NULLPTR));
-        b38->setText(QString());
-        b64->setText(QString());
-        b88->setText(QString());
-        b42->setText(QString());
-        b55_4->setText(QString());
-        b44->setText(QString());
-        b10_3->setText(QString());
-        b84->setText(QString());
-        b61->setText(QString());
-        b27->setText(QString());
-        b13->setText(QString());
-        b77->setText(QString());
-        b82->setText(QString());
-        b10_5->setText(QString());
-        b85->setText(QString());
-        b45->setText(QString());
-        b1_10->setText(QString());
-        b6_10->setText(QString());
-        b34->setText(QString());
-        b33->setText(QString());
-        b4_10->setText(QString());
-        b48->setText(QString());
-        b10_7->setText(QString());
-        b71->setText(QString());
-        b52->setText(QString());
-        b8_10->setText(QString());
-        b26->setText(QString());
-        b43->setText(QString());
-        b3_10->setText(QString());
-        b76->setText(QString());
-        b57->setText(QString());
-        b62->setText(QString());
-        b47->setText(QString());
-        b22->setText(QString());
-        b92->setText(QString());
-        b17->setText(QString());
-        b41->setText(QString());
-        b67->setText(QString());
-        b97->setText(QString());
-        b46->setText(QString());
-        b25->setText(QString());
-        b51->setText(QString());
-        b10_4->setText(QString());
-        b12->setText(QString());
-        b10_8->setText(QString());
-        b39->setText(QString());
-        b89->setText(QString());
-        b81->setText(QString());
-        b10_9->setText(QString());
-        b87->setText(QString());
-        b37->setText(QString());
-        b59->setText(QString());
-        b93->setText(QString());
-        b91->setText(QString());
-        b55->setText(QString());
-        b86->setText(QString());
-        b83->setText(QString());
-        b9_10->setText(QString());
-        b32->setText(QString());
-        b73->setText(QString());
-        b29->setText(QString());
-        b58->setText(QString());
-        b63->setText(QString());
-        b74->setText(QString());
-        b96->setText(QString());
-        b68->setText(QString());
-        b14->setText(QString());
-        b16->setText(QString());
-        b24->setText(QString());
-        b19->setText(QString());
-        b95->setText(QString());
-        b31->setText(QString());
-        b79->setText(QString());
-        b56->setText(QString());
-        b11->setText(QString());
-        b18->setText(QString());
-        b10_6->setText(QString());
-        b36->setText(QString());
-        b35->setText(QString());
-        b72->setText(QString());
-        pushButton->setText(QApplication::translate("PodmorniceGUI", "Zapo\304\215ni igru!", Q_NULLPTR));
-        b69->setText(QString());
-        b49->setText(QString());
-        b10_1->setText(QString());
-        b94->setText(QString());
-        b65->setText(QString());
-        b15->setText(QString());
-        b28->setText(QString());
-        b78->setText(QString());
-        b10_2->setText(QString());
-        b75->setText(QString());
-        b98->setText(QString());
-        b21->setText(QString());
-        b2_10->setText(QString());
-        b53->setText(QString());
-        b7_10->setText(QString());
-        b99->setText(QString());
-        b23->setText(QString());
-        b54->setText(QString());
-        b5_10->setText(QString());
-        b66->setText(QString());
+        PodmorniceGUI->setWindowTitle(QApplication::translate("PodmorniceGUI", "PodmorniceGUI", nullptr));
+        p37->setText(QString());
+        p65->setText(QString());
+        p31->setText(QString());
+        p82->setText(QString());
+        p77->setText(QString());
+        p21->setText(QString());
+        p94->setText(QString());
+        p39->setText(QString());
+        p61->setText(QString());
+        p07->setText(QString());
+        p17->setText(QString());
+        p96->setText(QString());
+        p06->setText(QString());
+        p85->setText(QString());
+        p52->setText(QString());
+        p18->setText(QString());
+        p09->setText(QString());
+        p26->setText(QString());
+        p99->setText(QString());
+        postavi->setText(QApplication::translate("PodmorniceGUI", "zapocni", nullptr));
+        p01->setText(QString());
+        p30->setText(QString());
+        p78->setText(QString());
+        p33->setText(QString());
+        p10->setText(QString());
+        p55->setText(QString());
+        p46->setText(QString());
+        p51->setText(QString());
+        p72->setText(QString());
+        p90->setText(QString());
+        p40->setText(QString());
+        p56->setText(QString());
+        p41->setText(QString());
+        p36->setText(QString());
+        p38->setText(QString());
+        p68->setText(QString());
+        p04->setText(QString());
+        p32->setText(QString());
+        p62->setText(QString());
+        p95->setText(QString());
+        p60->setText(QString());
+        p11->setText(QString());
+        p81->setText(QString());
+        p05->setText(QString());
+        p64->setText(QString());
+        p19->setText(QString());
+        p89->setText(QString());
+        p79->setText(QString());
+        p80->setText(QString());
+        p16->setText(QString());
+        p76->setText(QString());
+        p93->setText(QString());
+        p34->setText(QString());
+        p59->setText(QString());
+        p73->setText(QString());
+        p27->setText(QString());
+        p44->setText(QString());
+        p74->setText(QString());
+        p25->setText(QString());
+        p58->setText(QString());
+        p53->setText(QString());
+        p49->setText(QString());
+        p92->setText(QString());
+        p86->setText(QString());
+        p35->setText(QString());
+        p15->setText(QString());
+        p29->setText(QString());
+        p70->setText(QString());
+        p12->setText(QString());
+        p24->setText(QString());
+        p48->setText(QString());
+        p45->setText(QString());
+        p22->setText(QString());
+        p50->setText(QString());
+        p87->setText(QString());
+        p43->setText(QString());
+        p28->setText(QString());
+        p98->setText(QString());
+        p13->setText(QString());
+        p54->setText(QString());
+        p69->setText(QString());
+        p20->setText(QString());
+        p91->setText(QString());
+        p03->setText(QString());
+        p83->setText(QString());
+        p00->setText(QString());
+        p88->setText(QString());
+        p84->setText(QString());
+        p47->setText(QString());
+        p75->setText(QString());
+        p02->setText(QString());
+        p23->setText(QString());
+        p57->setText(QString());
+        p08->setText(QString());
+        p42->setText(QString());
+        p71->setText(QString());
+        p67->setText(QString());
+        p97->setText(QString());
+        p14->setText(QString());
+        p66->setText(QString());
+        p63->setText(QString());
     } // retranslateUi
 
 };

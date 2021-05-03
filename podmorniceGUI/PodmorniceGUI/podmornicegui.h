@@ -15,8 +15,10 @@ public:
     explicit PodmorniceGUI(QWidget *parent = 0);
     ~PodmorniceGUI();
 
+
+
 private slots:
-    void on_pushButton_clicked();
+    void on_postavi_clicked();
 
 private:
     Ui::PodmorniceGUI *ui;

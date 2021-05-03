@@ -467,8 +467,11 @@ PodmorniceGUI::~PodmorniceGUI()
     delete ui;
 }
 
-void PodmorniceGUI::on_pushButton_clicked()
+
+
+void PodmorniceGUI::on_postavi_clicked()
 {
     postaviTablu(matrica);
-    ui->lineEdit->setText(QString::number(matrica[0][0]));
+
+    ui->lineEdit->setText(QString::number(matrica[5][0]));
 }
