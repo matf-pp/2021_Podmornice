@@ -459,6 +459,13 @@ PodmorniceGUI::PodmorniceGUI(QWidget *parent) :
     ui(new Ui::PodmorniceGUI)
 {
     ui->setupUi(this);
+    QPushButton *dugmici[100][100];
+    for(int i=0;i<100;i++)
+        for(int j=0;j<100; j++){
+                  QString s="p" + QString::number(i)+QString::number(j);
+                  dugmici[i][j]=PodmorniceGUI::findChild<QPushButton *> (s);
+                  connect(dugmici[i][j], SIGNAL(clicked()),this, SLOT(oboj()));
+         }
 
 }
 
@@ -467,7 +474,11 @@ PodmorniceGUI::~PodmorniceGUI()
     delete ui;
 }
 
-
+void PodmorniceGUI::oboj(){
+    QPushButton * dugme =  (QPushButton *)sender();
+    dugme->setStyleSheet("background-color: yellow");
+    //ui->p11->setStyleSheet("background-color: yellow");
+}
 
 void PodmorniceGUI::on_postavi_clicked()
 {

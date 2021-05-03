@@ -18,6 +18,7 @@ public:
 
 
 private slots:
+    void oboj();
     void on_postavi_clicked();
 
 private:
