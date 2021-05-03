@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2021-05-02T22:20:58
+# Project created by QtCreator 2021-05-02T23:30:55
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = untitled
+TARGET = PodmorniceGUI
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,12 +25,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    polje.cpp
+        podmornicegui.cpp
 
 HEADERS += \
-        mainwindow.h \
-    polje.h
+        podmornicegui.h
 
 FORMS += \
-        mainwindow.ui
+        podmornicegui.ui

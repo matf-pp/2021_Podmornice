@@ -1,20 +1,41 @@
-#ifndef POLJE_H
-#define POLJE_H
-#include<iostream>
-#include<vector>
-using namespace std;
+#ifndef PODMORNICEGUI_H
+#define PODMORNICEGUI_H
+
+#include <QMainWindow>
+
+namespace Ui {
+class PodmorniceGUI;
+}
+
+class PodmorniceGUI : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit PodmorniceGUI(QWidget *parent = 0);
+    ~PodmorniceGUI();
+
+private slots:
+    void on_pushButton_clicked();
+
+private:
+    Ui::PodmorniceGUI *ui;
+};
+
+
 class Podmornica
 {
 private:
         char pravac;
         int duzina;
-        vector<int> vrsta_podm;
-        vector<int> kolona_podm;
+        QVector<int> vrsta_podm;
+        QVector<int> kolona_podm;
         int pogodak;
-        string ime;
+        QString ime;
 public:
     //konstruktor
-    Podmornica(char d, int lgth, vector<int> r, vector<int> c, int hit, string nme);
+    Podmornica(char d, int lgth, QVector<int> r, QVector<int> c, int hit, QString nme);
+    Podmornica();
 
     //pogodili polje u podmornici, uvecavamo brojac
     void setPogodak();
@@ -24,13 +45,11 @@ public:
     //ispisujemo koordinate nase podmornice
     void koordinatePodmornice();
         //hocemo da vidimo koja je podmornica na datoj koordinati
-    string getPodmornica(int v, int k);
+    QString getPodmornica(int v, int k);
 };
 
 
-// sad cemo da deklarisemo neke funkcije koje su nam potrebne
 
-// pravimo enum gde cemo smestiti brodove razlicite duzine
 enum TipoviBroda{ Br1p=1,Br2p=2,Br3p=3,Br4p=4,Br5p=5};
 
 void postaviTablu(int matrica[][10]);
@@ -39,7 +58,7 @@ void ispisiTabluNaPocetkuIgre(int matrica[][10]);
 // ispisujemo tablu bez brodova
 void ispisiTabluPoslePogotka(int matrica[][10]);
 // postavljamo podmornicu na tablu
-bool postaviPodmornicu(int matrica[][10],int duzinaBroda,int ime,vector<Podmornica> &listaBrodova);
+bool postaviPodmornicu(int matrica[][10],int duzinaBroda,int ime,QVector<Podmornica> &listaBrodova);
 // sledeca funkcija stavlja brojeve koji odgovaraju duzini podmornice, mi cemo umesto toga da
 // stavljamo boje samo cu ja sad ovako da stavim da imamo
 void promeniPolje(int matrica[][10],int kolona,int vrsta,int duzinaBroda,char smer);
@@ -50,9 +69,7 @@ void izaberiVrsteiKolone(int& kolona,int& vrsta,int duzinaBorda,char smer);
 // uz pomoc rendom funkcije generise da li cemo ici horizontalno ili vertikalno
 char uzmiPravac(int p);
 void izmeniTablu(int matrica[][10],int kolona,int vrsta,int duzinaPodmornice,int smer);
-int izmeniPodmornicu(int matrica[][10],int kolona,int vrsta,int smer,vector<Podmornica> &listaPodmornica,int ime);
+int izmeniPodmornicu(int matrica[][10],int kolona,int vrsta,int smer,QVector<Podmornica> &listaPodmornica,int ime);
 
 
-
-
-#endif // POLJE_H
+#endif // PODMORNICEGUI_H

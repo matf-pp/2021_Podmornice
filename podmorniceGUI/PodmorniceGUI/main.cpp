@@ -1,10 +1,10 @@
-#include "mainwindow.h"
+#include "podmornicegui.h"
 #include <QApplication>
-#include"polje.h"
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    PodmorniceGUI w;
     w.show();
 
     return a.exec();
