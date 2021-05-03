@@ -3,6 +3,10 @@
 
 
 int matrica[10][10];
+QVector<Podmornica> listaPodmornica;
+int potopljenePodmornice=0;
+QPushButton *dugmici[100][100];
+
 
 Podmornica::Podmornica(char d, int lgth, QVector<int> r, QVector<int> c, int hit, QString nme)
 {
@@ -217,8 +221,8 @@ Podmornica::Podmornica(){};
                 vrsta = rand()%10;
             }else
             {
-                kolona = rand()%7;
                 vrsta = rand()%10;
+                kolona = rand()%7;
             }
             break;
         case Br4p:
@@ -228,8 +232,8 @@ Podmornica::Podmornica(){};
                 vrsta = rand()%10;
             }else
             {
-                kolona = rand()%6;
-                vrsta = rand()%10;
+                kolona = rand()%10;
+                vrsta = rand()%6;
             }
             break;
 
@@ -240,8 +244,8 @@ Podmornica::Podmornica(){};
                 vrsta = rand()%10;
             }else
             {
-                kolona = rand()%5;
-                vrsta = rand()%10;
+                kolona = rand()%10;
+                vrsta = rand()%5;
             }
             break;
         }
@@ -449,17 +453,11 @@ Podmornica::Podmornica(){};
     }
 
 
-
-
-
-
-
 PodmorniceGUI::PodmorniceGUI(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::PodmorniceGUI)
 {
     ui->setupUi(this);
-    QPushButton *dugmici[100][100];
     for(int i=0;i<100;i++)
         for(int j=0;j<100; j++){
                   QString s="p" + QString::number(i)+QString::number(j);
@@ -475,14 +473,112 @@ PodmorniceGUI::~PodmorniceGUI()
 }
 
 void PodmorniceGUI::oboj(){
+
+
     QPushButton * dugme =  (QPushButton *)sender();
-    dugme->setStyleSheet("background-color: yellow");
+   // dugme->setStyleSheet("background-color: yellow");
     //ui->p11->setStyleSheet("background-color: yellow");
+    QString ime_kliknuto = dugme->objectName();
+    int vrsta = ime_kliknuto[1].digitValue();
+    int kolona = ime_kliknuto[2].digitValue();
+
+    int element = matrica[vrsta][kolona];
+
+    switch(element)
+    {
+            case 0:
+                dugme->setStyleSheet("background-color: red");
+                ui->message->clear();
+                ui->message->setText("Promašaj!");
+             break;
+             case 1:
+                ui->message->clear();
+                ui->message->setText("Pogodili ste podmornicu dužine 1.");
+                dugme->setStyleSheet("background-color: yellow");
+                listaPodmornica[0].setPogodak();
+                listaPodmornica[0].proveriPotop(Br1p);
+               // podmornica duzine 1 je svakako odmahpogodjena ali nek stoji
+                potopljenePodmornice++;
+                ui->lineEdit->setText(QString::number(potopljenePodmornice));
+                if(potopljenePodmornice==5)
+                    ui->message->setText("Potopili ste sve podmornice :)");
+             break;
+
+        case 2:
+            ui->message->clear();
+            dugme->setStyleSheet("background-color: green");
+            listaPodmornica[1].setPogodak();
+            if(listaPodmornica[1].proveriPotop(Br2p)==9){
+                ui->message->setText("Pogodili ste podmornicu dužine 2.");
+                potopljenePodmornice++;
+                ui->lineEdit->setText(QString::number(potopljenePodmornice));
+                if(potopljenePodmornice==5)
+                    ui->message->setText("Potopili ste sve podmornice :)");
+            }
+        break;
+
+    case 3:
+        ui->message->clear();
+        dugme->setStyleSheet("background-color: pink");
+        listaPodmornica[2].setPogodak();
+        if(listaPodmornica[2].proveriPotop(Br3p)==9){
+            ui->message->setText("Pogodili ste podmornicu dužine 3.");
+            potopljenePodmornice++;
+            ui->lineEdit->setText(QString::number(potopljenePodmornice));
+            if(potopljenePodmornice==5)
+                ui->message->setText("Potopili ste sve podmornice :)");
+        }
+    break;
+
+    case 4:
+        ui->message->clear();
+        dugme->setStyleSheet("background-color: blue");
+        listaPodmornica[3].setPogodak();
+        if(listaPodmornica[3].proveriPotop(Br4p)==9){
+            ui->message->setText("Pogodili ste podmornicu dužine 4.");
+            potopljenePodmornice++;
+            ui->lineEdit->setText(QString::number(potopljenePodmornice));
+            if(potopljenePodmornice==5)
+                ui->message->setText("Potopili ste sve podmornice :)");
+        }
+    break;
+
+    case 5:
+        ui->message->clear();
+        dugme->setStyleSheet("background-color: black");
+        listaPodmornica[4].setPogodak();
+        if(listaPodmornica[4].proveriPotop(Br5p)==9){
+            ui->message->setText("Pogodili ste podmornicu dužine 5.");
+            potopljenePodmornice++;
+            ui->lineEdit->setText(QString::number(potopljenePodmornice));
+            if(potopljenePodmornice==5)
+                ui->message->setText("Potopili ste sve podmornice :)");
+
+        }
+    break;
+    }
+
+
+
+
+
 }
 
 void PodmorniceGUI::on_postavi_clicked()
 {
     postaviTablu(matrica);
+    postaviPodmornicu(matrica,1,Br1p,listaPodmornica);
+    postaviPodmornicu(matrica,2,Br2p,listaPodmornica);
+    postaviPodmornicu(matrica,3,Br3p,listaPodmornica);
+    postaviPodmornicu(matrica,4,Br4p,listaPodmornica);
+    postaviPodmornicu(matrica,5,Br5p,listaPodmornica);
+    ui->message->setText("Zdravo\nIgra počinje\n");
+    potopljenePodmornice=0;
+    ui->lineEdit->clear();
+    for(int i=0;i<10;i++)
+          for(int j=0;j<10;j++)
+              dugmici[i][j]->setStyleSheet("background-color: #D8BFD8");
 
-    ui->lineEdit->setText(QString::number(matrica[5][0]));
+
+
 }

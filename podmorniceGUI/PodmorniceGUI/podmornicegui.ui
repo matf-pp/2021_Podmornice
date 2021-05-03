@@ -2827,12 +2827,22 @@
      <number>100</number>
     </property>
    </widget>
+   <widget class="QTextEdit" name="message">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>120</y>
+      <width>191</width>
+      <height>131</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>120</y>
-      <width>113</width>
+      <x>352</x>
+      <y>270</y>
+      <width>161</width>
       <height>25</height>
      </rect>
     </property>
