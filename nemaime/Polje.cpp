@@ -546,19 +546,3 @@ int izmeniPodmornicu(int matrica[][10],int kolona,int vrsta,int smer,vector<Podm
 }
 
 
-
-
-int main()
-{
-    Podmornica podmornica('v',3,{1,1,1},{1,2,3,4},0," ");
-    podmornica.koordinatePodmornice();
-    int matrica[10][10];
-    postaviTablu(matrica);
-    ispisiTabluNaPocetkuIgre(matrica);
-    ispisiTabluPoslePogotka(matrica);
-    vector<Podmornica> listica;
-    izmeniPodmornicu(matrica,5,5,'v',listica,1);
-
-    return 0;
-
-}
