@@ -25,10 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        podmornicegui.cpp
+        podmornicegui.cpp \
+    kreniigru.cpp \
+    pobeda.cpp
 
 HEADERS += \
-        podmornicegui.h
+        podmornicegui.h \
+    kreniigru.h \
+    pobeda.h
 
 FORMS += \
-        podmornicegui.ui
+        podmornicegui.ui \
+    kreniigru.ui \
+    pobeda.ui
