@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>600</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Pobeda</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>100</y>
-     <width>171</width>
-     <height>91</height>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>700</height>
     </rect>
    </property>
    <property name="text">

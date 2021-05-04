@@ -38,3 +38,6 @@ FORMS += \
         podmornicegui.ui \
     kreniigru.ui \
     pobeda.ui
+
+DISTFILES += \
+    kraj.jpg
