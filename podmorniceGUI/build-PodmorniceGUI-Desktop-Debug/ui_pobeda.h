@@ -12,18 +12,23 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QLabel>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_Pobeda
 {
 public:
+    QLabel *label;
 
     void setupUi(QDialog *Pobeda)
     {
         if (Pobeda->objectName().isEmpty())
             Pobeda->setObjectName(QString::fromUtf8("Pobeda"));
-        Pobeda->resize(648, 410);
+        Pobeda->resize(600, 700);
+        label = new QLabel(Pobeda);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(0, 0, 600, 700));
 
         retranslateUi(Pobeda);
 
@@ -33,6 +38,7 @@ public:
     void retranslateUi(QDialog *Pobeda)
     {
         Pobeda->setWindowTitle(QApplication::translate("Pobeda", "Pobeda", nullptr));
+        label->setText(QString());
     } // retranslateUi
 
 };

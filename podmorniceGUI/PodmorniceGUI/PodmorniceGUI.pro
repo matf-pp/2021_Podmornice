@@ -39,4 +39,5 @@ FORMS += \
     kreniigru.ui \
     pobeda.ui
 
-DISTFILES +=
+DISTFILES += \
+    kraj.jpg

@@ -6,6 +6,9 @@ Pobeda::Pobeda(QWidget *parent) :
     ui(new Ui::Pobeda)
 {
     ui->setupUi(this);
+    QPixmap pix("../kraj.jpg");
+    ui->label->setPixmap(pix.scaled(700, 600, Qt::KeepAspectRatio));
+
     //QString s="ČESTITAMO, POGODILI STE PODMORNICE U";
     //s.append(QString::number(br_pokusaja));
     //s.append("POKUŠAJA!");
