@@ -16,7 +16,6 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
@@ -127,7 +126,6 @@ public:
     QPushButton *p14;
     QPushButton *p66;
     QPushButton *p63;
-    QTextEdit *message;
     QLineEdit *lineEdit;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
@@ -137,7 +135,7 @@ public:
     {
         if (PodmorniceGUI->objectName().isEmpty())
             PodmorniceGUI->setObjectName(QString::fromUtf8("PodmorniceGUI"));
-        PodmorniceGUI->resize(591, 371);
+        PodmorniceGUI->resize(655, 375);
         centralWidget = new QWidget(PodmorniceGUI);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         p37 = new QPushButton(centralWidget);
@@ -1149,16 +1147,13 @@ public:
 "         background-color: #D8BFD8;\n"
 "}"));
         p63->setAutoRepeatDelay(100);
-        message = new QTextEdit(centralWidget);
-        message->setObjectName(QString::fromUtf8("message"));
-        message->setGeometry(QRect(370, 120, 191, 131));
         lineEdit = new QLineEdit(centralWidget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(352, 270, 161, 25));
+        lineEdit->setGeometry(QRect(360, 120, 113, 25));
         PodmorniceGUI->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(PodmorniceGUI);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 591, 22));
+        menuBar->setGeometry(QRect(0, 0, 655, 22));
         PodmorniceGUI->setMenuBar(menuBar);
         mainToolBar = new QToolBar(PodmorniceGUI);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -1194,7 +1189,7 @@ public:
         p09->setText(QString());
         p26->setText(QString());
         p99->setText(QString());
-        postavi->setText(QApplication::translate("PodmorniceGUI", "zapo\304\215ni", nullptr));
+        postavi->setText(QApplication::translate("PodmorniceGUI", "zapocni", nullptr));
         p01->setText(QString());
         p30->setText(QString());
         p78->setText(QString());
