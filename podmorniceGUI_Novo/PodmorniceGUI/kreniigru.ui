@@ -1,0 +1,2978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KreniIgru</class>
+ <widget class="QDialog" name="KreniIgru">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>394</width>
+    <height>558</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <widget class="QPushButton" name="p48">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p44">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p14">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p33">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p46">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p57">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p31">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p19">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p12">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p50">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p36">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="message">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p27">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p04">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p85">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p13">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p20">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p99">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p22">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p52">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p63">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p55">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p79">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p90">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p09">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p68">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p76">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p43">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p88">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p42">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p84">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p51">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p60">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p69">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p03">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p16">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p74">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p87">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p32">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p80">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p72">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p95">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p26">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p34">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p53">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p71">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p75">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p17">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p37">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p81">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p91">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p25">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p93">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p97">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p86">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p78">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p47">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p94">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p00">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p01">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p56">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p64">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p11">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p70">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p41">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p92">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p06">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p35">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p23">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p07">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p61">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p18">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p15">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p83">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p62">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p49">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p21">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p73">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p67">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p66">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p30">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p10">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p02">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p65">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>190</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p96">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p98">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>280</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p89">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p82">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>250</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p39">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p38">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>100</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p59">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p45">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p77">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>220</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p40">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p08">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p29">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p05">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p24">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p58">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p28">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>70</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p54">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>160</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>5</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+		 border: 1px solid gray;
+         background-color: #D8BFD8;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 127, 168);</string>
+   </property>
+   <property name="text">
+    <string>Podmornica dužine 1</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>420</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 127, 168);</string>
+   </property>
+   <property name="text">
+    <string>Podmornica dužine 2</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 127, 168);</string>
+   </property>
+   <property name="text">
+    <string>Podmornica dužine 3</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>480</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 127, 168);</string>
+   </property>
+   <property name="text">
+    <string>Podmornica dužine 4</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 127, 168);</string>
+   </property>
+   <property name="text">
+    <string>Podmornica dužine 5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pogodci">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>430</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="potopi">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>400</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tibetan Machine Uni</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>br. pokušaja:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
