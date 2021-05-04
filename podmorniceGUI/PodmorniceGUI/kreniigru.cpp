@@ -577,15 +577,6 @@ void KreniIgru::oboj(){
     break;
     }
 
-
-
-
-
 }
-
-
-
-
-
 
 
