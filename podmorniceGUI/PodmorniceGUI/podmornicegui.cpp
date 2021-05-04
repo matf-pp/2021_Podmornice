@@ -2,7 +2,6 @@
 #include "ui_podmornicegui.h"
 #include"kreniigru.h"
 
-
 int matrica[10][10];
 int potopljenePodmornice=0;
 QVector<Podmornica> listaPodmornica;

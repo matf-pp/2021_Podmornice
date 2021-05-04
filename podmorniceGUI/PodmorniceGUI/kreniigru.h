@@ -6,7 +6,6 @@
 extern int matrica[10][10];
 extern int potopljenePodmornice;
 
-
 namespace Ui {
 class KreniIgru;
 }
@@ -76,7 +75,7 @@ void izaberiVrsteiKolone(int& kolona,int& vrsta,int duzinaBorda,char smer);
 // uz pomoc rendom funkcije generise da li cemo ici horizontalno ili vertikalno
 char uzmiPravac(int p);
 void izmeniTablu(int matrica[][10],int kolona,int vrsta,int duzinaPodmornice,int smer);
-int izmeniPodmornicu(int matrica[][10],int kolona,int vrsta,int smer,QVector<Podmornica> &listaPodmornica,int ime);
+int izmeniPodmornicu(int kolona,int vrsta,int smer,QVector<Podmornica> &listaPodmornica,int ime);
 
 
 
