@@ -4,6 +4,7 @@
 #include "podmornicegui.h"
 #include "ui_podmornicegui.h"
 #include "pobeda.h"
+#include"gubitak.h"
 
 QPushButton *dugmici[100][100];
 
@@ -121,7 +122,7 @@ Podmornica::Podmornica(){};
             }
 
         }
-        return false;
+            return false;
     }
 
 
@@ -150,10 +151,9 @@ Podmornica::Podmornica(){};
             {
                 provera=matrica[i][kolona];
                 if(provera!=0)
-                   /* condition */ {
                         return 1;
 
-                    }
+
             }
             return 0;
 
@@ -483,6 +483,14 @@ void izbaciProzor()
 }
 
 
+void izgubio_igru()
+{
+    Gubitak gubitak;
+    gubitak.setModal(true);
+    gubitak.exec();
+}
+
+
 void KreniIgru::oboj(){
 
 
@@ -503,8 +511,18 @@ void KreniIgru::oboj(){
                 dugme->setEnabled(false);
                 ui->message->clear();
                 ui->message->setText("Promašaj!");
+                pokusaji++;
+                if (pokusaji>=61)
+                    izgubio_igru();
+                ui->pogodci->setText(QString::number(pokusaji));
+
              break;
+
              case 1:
+                pokusaji++;
+                if (pokusaji>=61)
+                    izgubio_igru();
+
                 ui->message->clear();
                 ui->message->setText("Pogodili ste podmornicu dužine 1.");
                 dugme->setStyleSheet("background-color: #000080");
@@ -513,70 +531,111 @@ void KreniIgru::oboj(){
                 listaPodmornica[0].proveriPotop(Br1p);
                // podmornica duzine 1 je svakako odmahpogodjena ali nek stoji
                 potopljenePodmornice++;
+                ui->check1->setChecked(true);
 
-                ui->lineEdit->setText(QString::number(potopljenePodmornice));
                 if(potopljenePodmornice==5)
                     izbaciProzor();
+                ui->pogodci->setText(QString::number(pokusaji));
+
              break;
 
         case 2:
+            pokusaji++;
+            if (pokusaji>=61)
+                izgubio_igru();
             ui->message->clear();
             dugme->setStyleSheet("background-color: #0000FF");
             dugme->setEnabled(false);
             listaPodmornica[1].setPogodak();
+
             if(listaPodmornica[1].proveriPotop(Br2p)==9){
-                ui->message->setText("Pogodili ste podmornicu dužine 2.");
                 potopljenePodmornice++;
-                ui->lineEdit->setText(QString::number(potopljenePodmornice));
+                ui->message->setText("Pogodili ste podmornicu dužine 2.");
+                ui->check2->setChecked(true);
+
+
                 if(potopljenePodmornice==5)
                     izbaciProzor();
             }
+            ui->pogodci->setText(QString::number(pokusaji));
+
         break;
 
     case 3:
+        pokusaji++;
+        if (pokusaji>=61)
+            izgubio_igru();
         ui->message->clear();
         dugme->setStyleSheet("background-color: #4169E1");
         dugme->setEnabled(false);
         listaPodmornica[2].setPogodak();
+
         if(listaPodmornica[2].proveriPotop(Br3p)==9){
-            ui->message->setText("Pogodili ste podmornicu dužine 3.");
             potopljenePodmornice++;
-            ui->lineEdit->setText(QString::number(potopljenePodmornice));
+            ui->message->setText("Pogodili ste podmornicu dužine 3.");
+            ui->check3->setChecked(true);
+
+
             if(potopljenePodmornice==5)
                 izbaciProzor();
         }
+        ui->pogodci->setText(QString::number(pokusaji));
+
     break;
 
     case 4:
+        pokusaji++;
+        if (pokusaji>=61)
+            izgubio_igru();
         ui->message->clear();
         dugme->setStyleSheet("background-color: #6495ED");
         dugme->setEnabled(false);
         listaPodmornica[3].setPogodak();
+
         if(listaPodmornica[3].proveriPotop(Br4p)==9){
-            ui->message->setText("Pogodili ste podmornicu dužine 4.");
             potopljenePodmornice++;
-            ui->lineEdit->setText(QString::number(potopljenePodmornice));
+            ui->message->setText("Pogodili ste podmornicu dužine 4.");
+            ui->check4->setChecked(true);
+
+
             if(potopljenePodmornice==5)
                 izbaciProzor();
         }
+        ui->pogodci->setText(QString::number(pokusaji));
+
     break;
 
     case 5:
+        pokusaji++;
+        if (pokusaji>=61)
+            izgubio_igru();
+
         ui->message->clear();
         dugme->setStyleSheet("background-color: #00FFFF");
         dugme->setEnabled(false);
         listaPodmornica[4].setPogodak();
+
         if(listaPodmornica[4].proveriPotop(Br5p)==9){
-            ui->message->setText("Pogodili ste podmornicu dužine 5.");
             potopljenePodmornice++;
-            ui->lineEdit->setText(QString::number(potopljenePodmornice));
+            ui->message->setText("Pogodili ste podmornicu dužine 5.");
+            ui->checkBox_5->setChecked(true);
+
+
             if(potopljenePodmornice==5)
                 izbaciProzor();
-
         }
+        ui->pogodci->setText(QString::number(pokusaji));
+
     break;
+
+
     }
 
 }
+
+
+
+
+
 
 

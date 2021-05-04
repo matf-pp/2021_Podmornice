@@ -27,17 +27,20 @@ SOURCES += \
         main.cpp \
         podmornicegui.cpp \
     kreniigru.cpp \
-    pobeda.cpp
+    pobeda.cpp \
+    gubitak.cpp
 
 HEADERS += \
         podmornicegui.h \
     kreniigru.h \
-    pobeda.h
+    pobeda.h \
+    gubitak.h
 
 FORMS += \
         podmornicegui.ui \
     kreniigru.ui \
-    pobeda.ui
+    pobeda.ui \
+    gubitak.ui
 
 DISTFILES += \
     kraj.jpg

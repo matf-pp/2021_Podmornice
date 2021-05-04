@@ -5,6 +5,7 @@
 
 extern int matrica[10][10];
 extern int potopljenePodmornice;
+extern int pokusaji;
 
 namespace Ui {
 class KreniIgru;
