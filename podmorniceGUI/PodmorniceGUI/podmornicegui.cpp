@@ -97,10 +97,10 @@ Podmornica::Podmornica(){};
                 izmeniTablu(matrica,kolona,vrsta,duzinaBroda,smer);
                 //stavlja pormornicu na tablu
 
-                izmeniPodmornicu(matrica,kolona,vrsta,smer,listaBrodova,ime);
+                izmeniPodmornicu(kolona,vrsta,smer,listaBrodova,ime);
                 // kreira objekat Podmornica
 
-                return 0;//nis spec samo znamo da smo uspeli da postavimo podmornicu na tablu
+                return true;//nis spec samo znamo da smo uspeli da postavimo podmornicu na tablu
 
             }else if (smer=='v')
             {
@@ -119,14 +119,15 @@ Podmornica::Podmornica(){};
                 izmeniTablu(matrica,kolona,vrsta,duzinaBroda,smer);
                 //stavlja pormornicu na tablu
 
-                izmeniPodmornicu(matrica,kolona,vrsta,smer,listaBrodova,ime);
+                izmeniPodmornicu(kolona,vrsta,smer,listaBrodova,ime);
                 // kreira objekat Podmornica
 
-                return 0;//nis spec samo znamo da smo uspeli da postavimo podmornicu na tablu
+                return true;//nis spec samo znamo da smo uspeli da postavimo podmornicu na tablu
 
             }
 
         }
+        return false;
 
     }
 
@@ -281,7 +282,7 @@ Podmornica::Podmornica(){};
 
 
 
-    int izmeniPodmornicu(int matrica[][10],int kolona,int vrsta,int smer,QVector<Podmornica> &listaPodmornica,int ime)
+    int izmeniPodmornicu(int kolona,int vrsta,int smer,QVector<Podmornica> &listaPodmornica,int ime)
     {
         switch (ime)
         {
@@ -483,18 +484,17 @@ void PodmorniceGUI::oboj(){
     int kolona = ime_kliknuto[2].digitValue();
 
     int element = matrica[vrsta][kolona];
-
     switch(element)
     {
             case 0:
-                dugme->setStyleSheet("background-color: red");
+                dugme->setStyleSheet("background-color: #8B0000");
                 ui->message->clear();
                 ui->message->setText("Promašaj!");
              break;
              case 1:
                 ui->message->clear();
                 ui->message->setText("Pogodili ste podmornicu dužine 1.");
-                dugme->setStyleSheet("background-color: yellow");
+                dugme->setStyleSheet("background-color: #00008B");
                 listaPodmornica[0].setPogodak();
                 listaPodmornica[0].proveriPotop(Br1p);
                // podmornica duzine 1 je svakako odmahpogodjena ali nek stoji
@@ -506,7 +506,7 @@ void PodmorniceGUI::oboj(){
 
         case 2:
             ui->message->clear();
-            dugme->setStyleSheet("background-color: green");
+            dugme->setStyleSheet("background-color: #0000CD");
             listaPodmornica[1].setPogodak();
             if(listaPodmornica[1].proveriPotop(Br2p)==9){
                 ui->message->setText("Pogodili ste podmornicu dužine 2.");
@@ -519,7 +519,7 @@ void PodmorniceGUI::oboj(){
 
     case 3:
         ui->message->clear();
-        dugme->setStyleSheet("background-color: pink");
+        dugme->setStyleSheet("background-color: #0000FF");
         listaPodmornica[2].setPogodak();
         if(listaPodmornica[2].proveriPotop(Br3p)==9){
             ui->message->setText("Pogodili ste podmornicu dužine 3.");
@@ -532,7 +532,7 @@ void PodmorniceGUI::oboj(){
 
     case 4:
         ui->message->clear();
-        dugme->setStyleSheet("background-color: blue");
+        dugme->setStyleSheet("background-color: #4169E1");
         listaPodmornica[3].setPogodak();
         if(listaPodmornica[3].proveriPotop(Br4p)==9){
             ui->message->setText("Pogodili ste podmornicu dužine 4.");
@@ -545,7 +545,7 @@ void PodmorniceGUI::oboj(){
 
     case 5:
         ui->message->clear();
-        dugme->setStyleSheet("background-color: black");
+        dugme->setStyleSheet("background-color: #00BFFF");
         listaPodmornica[4].setPogodak();
         if(listaPodmornica[4].proveriPotop(Br5p)==9){
             ui->message->setText("Pogodili ste podmornicu dužine 5.");
