@@ -42,5 +42,4 @@ FORMS += \
     pobeda.ui \
     gubitak.ui
 
-DISTFILES += \
-    kraj.jpg
+DISTFILES +=

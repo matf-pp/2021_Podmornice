@@ -20,15 +20,26 @@ class Ui_Pobeda
 {
 public:
     QLabel *label;
+    QLabel *label_2;
 
     void setupUi(QDialog *Pobeda)
     {
         if (Pobeda->objectName().isEmpty())
             Pobeda->setObjectName(QString::fromUtf8("Pobeda"));
-        Pobeda->resize(600, 700);
+        Pobeda->resize(416, 318);
         label = new QLabel(Pobeda);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(0, 0, 600, 700));
+        label->setGeometry(QRect(80, 80, 191, 51));
+        QFont font;
+        font.setFamily(QString::fromUtf8("Tibetan Machine Uni"));
+        font.setPointSize(15);
+        label->setFont(font);
+        label->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 218, 218);"));
+        label_2 = new QLabel(Pobeda);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(20, 150, 321, 51));
+        label_2->setFont(font);
+        label_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 218, 218);"));
 
         retranslateUi(Pobeda);
 
@@ -37,8 +48,9 @@ public:
 
     void retranslateUi(QDialog *Pobeda)
     {
-        Pobeda->setWindowTitle(QApplication::translate("Pobeda", "Pobeda", nullptr));
-        label->setText(QString());
+        Pobeda->setWindowTitle(QString());
+        label->setText(QApplication::translate("Pobeda", "\304\214ESTITAMO!!!", nullptr));
+        label_2->setText(QApplication::translate("Pobeda", "Sve podmornice su potopljene!!! ", nullptr));
     } // retranslateUi
 
 };
