@@ -4,7 +4,7 @@ IGRA POTAPANJA PODMORNICA!
 
 Jednostavna igra potapanja podmornica napravljena uz pomoć C++-a i Qt Creator-a.
 
-Pravila igre :
+#Pravila igre :
 
 
 Na klik dugmeta "Započni" igra počinje. Imate 60 pokusaja da probate da potopite pet podmornica. Svaka podmornica je različite dužine.
@@ -12,14 +12,13 @@ Pobedio je onaj koji je uspeo da potopi sve podmornice za manje od 60 pokušaja.
 u neku nijansu plave, pogodjen je neki deo podmornice (pogledati slike ispod). Podmornice različitih dužina su različito obojene.
 Kada pogodite podmornicu, biće vam čekirano polje ispod table na kom će pisati koja je podmornica pogodjena, i takodje će biti ispisano na ekranu.
 
-
-![promasaj](https://user-images.githubusercontent.com/80061142/118696927-128a3600-b80f-11eb-9fae-aaecf1b183a4.jpeg)
-![kraj](https://user-images.githubusercontent.com/80061142/118696950-17e78080-b80f-11eb-911b-a4ea65fe1d05.jpeg)
-
+![promasaj](https://user-images.githubusercontent.com/80061142/118697771-f044e800-b80f-11eb-9f6f-eda00db432b5.jpeg)
+![kraj](https://user-images.githubusercontent.com/80061142/118697777-f1761500-b80f-11eb-8e19-266e7ed09d9f.jpeg)
 
 
 
-Instalacija:
+
+#Instalacija:
   Potrebno je instalirati qmake, qt i g++ kompajler. U prilogu su instalije za Linux(ukucati u terminalu sledece linije):
     g++ :  sudo apt-get install g++ 
     
@@ -29,7 +28,7 @@ Instalacija:
     qt : sudo apt-get install qt5-default
     
     
-   Kako pokrenuti igru : 
+#Kako pokrenuti igru : 
    
    Potrebno je skinuti repozitorijum i ući u terminalu do krajnjeg foldera gde se nalaze samo fajlovi
    (npr na mom sistemu to izgleda ovako : Desktop/projekat/2021_Podmornice/podmorniceGUI_Novo/PodmorniceGUI/).
@@ -43,7 +42,7 @@ Instalacija:
 
 
 
-Autori:
+#Autori:
 
 Sara Mišić 198/2018 
 saram140100@gmail.com
