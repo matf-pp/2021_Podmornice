@@ -43,6 +43,8 @@ Instalacija:
 
 
 Autori:
-Sara Mišić 198/2018 saram140100@gmail.com
-Milena Filipović 273/2018 milena.filipovic9909@gmail.com
+Sara Mišić 198/2018 
+saram140100@gmail.com
+Milena Filipović 273/2018
+milena.filipovic9909@gmail.com
 
