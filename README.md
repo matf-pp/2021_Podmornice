@@ -5,13 +5,15 @@ IGRA POTAPANJA PODMORNICA!
 Jednostavna igra potapanja podmornica napravljena uz pomoć C++-a i Qt Creator-a.
 
 Pravila igre :
-![dad0e5ca-0f5c-44b3-9700-7b92eb4ca119](https://user-images.githubusercontent.com/72262620/118695174-2df44180-b80d-11eb-88e8-bb675eb85a94.jpeg)
+
 
 Na klik dugmeta "Započni" igra počinje. Imate 60 pokusaja da probate da potopite pet podmornica. Svaka podmornica je različite dužine.
 Pobedio je onaj koji je uspeo da potopi sve podmornice za manje od 60 pokušaja. Ukoliko polje zacrveni, to je promašaj, a ukoliko se oboji
 u neku nijansu plave, pogodjen je neki deo podmornice. Podmornice različitih dužina su različito obojene.
 Kada pogodite podmornicu, biće vam čekirano polje ispod table na kom će pisati koja je podmornica pogodjena, i takodje će biti ispisano na ekranu.
 
+![dad18372-8a4e-490d-884d-f5d641b753bb](https://user-images.githubusercontent.com/72262620/118695287-50865a80-b80d-11eb-8a28-2bcd775b42fb.jpeg)
+![c2929ae6-b280-4d9f-9092-a2349371beec](https://user-images.githubusercontent.com/72262620/118695326-5e3be000-b80d-11eb-9714-48b132fd5f3e.jpeg)
 
 
 
