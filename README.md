@@ -44,9 +44,9 @@ Kada pogodite podmornicu, biće vam čekirano polje ispod table na kom će pisat
 
 ## Autori:
 
-Sara Mišić 198/2018 
+Sara Mišić 198/2018 \
 saram140100@gmail.com
 
-Milena Filipović 273/2018
+Milena Filipović 273/2018 \
 milena.filipovic9909@gmail.com
 
