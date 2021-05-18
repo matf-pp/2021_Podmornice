@@ -4,7 +4,7 @@ IGRA POTAPANJA PODMORNICA!
 
 Jednostavna igra potapanja podmornica napravljena uz pomoć C++-a i Qt Creator-a.
 
-#Pravila igre :
+& Pravila igre :
 
 
 Na klik dugmeta "Započni" igra počinje. Imate 60 pokusaja da probate da potopite pet podmornica. Svaka podmornica je različite dužine.
@@ -18,7 +18,7 @@ Kada pogodite podmornicu, biće vam čekirano polje ispod table na kom će pisat
 
 
 
-#Instalacija:
+& Instalacija:
   Potrebno je instalirati qmake, qt i g++ kompajler. U prilogu su instalije za Linux(ukucati u terminalu sledece linije):
     g++ :  sudo apt-get install g++ 
     
@@ -28,7 +28,7 @@ Kada pogodite podmornicu, biće vam čekirano polje ispod table na kom će pisat
     qt : sudo apt-get install qt5-default
     
     
-#Kako pokrenuti igru : 
+& Kako pokrenuti igru : 
    
    Potrebno je skinuti repozitorijum i ući u terminalu do krajnjeg foldera gde se nalaze samo fajlovi
    (npr na mom sistemu to izgleda ovako : Desktop/projekat/2021_Podmornice/podmorniceGUI_Novo/PodmorniceGUI/).
@@ -42,7 +42,7 @@ Kada pogodite podmornicu, biće vam čekirano polje ispod table na kom će pisat
 
 
 
-#Autori:
+& Autori:
 
 Sara Mišić 198/2018 
 saram140100@gmail.com
